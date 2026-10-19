@@ -2072,13 +2072,16 @@
     }
   ],
   "record_count": 33,
-  "leaf_archetype_count": 0,
+  "leaf_archetype_count": 26,
   "records": [
     {
       "node_id": "archetyp-funkcjonalny-projektu-www-w-zakresie-operacyjnym",
-      "code_or_gate": "",
+      "node_kind": "root",
+      "depth": 0,
+      "is_leaf_archetype": false,
       "family_id": "",
       "parent_id": "",
+      "children_count": 5,
       "name_en": "Functional archetype of an in-scope web project",
       "name_pl": "Archetyp funkcjonalny projektu WWW w zakresie operacyjnym",
       "path_en": [
@@ -2095,9 +2098,12 @@
     },
     {
       "node_id": "serwis-publikacyjny",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "family",
+      "depth": 1,
+      "is_leaf_archetype": false,
+      "family_id": "serwis-publikacyjny",
       "parent_id": "archetyp-funkcjonalny-projektu-www-w-zakresie-operacyjnym",
+      "children_count": 4,
       "name_en": "Publishing service",
       "name_pl": "Serwis publikacyjny",
       "path_en": [
@@ -2116,9 +2122,12 @@
     },
     {
       "node_id": "serwis-z-seria-publikacji",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "serwis-publikacyjny",
       "parent_id": "serwis-publikacyjny",
+      "children_count": 0,
       "name_en": "Publication series service",
       "name_pl": "Serwis z serią publikacji",
       "path_en": [
@@ -2139,9 +2148,12 @@
     },
     {
       "node_id": "zbior-referencyjny",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "group",
+      "depth": 2,
+      "is_leaf_archetype": false,
+      "family_id": "serwis-publikacyjny",
       "parent_id": "serwis-publikacyjny",
+      "children_count": 3,
       "name_en": "Reference collection",
       "name_pl": "Zbiór referencyjny",
       "path_en": [
@@ -2162,9 +2174,12 @@
     },
     {
       "node_id": "korpus-zasobow-referencyjnych",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 3,
+      "is_leaf_archetype": true,
+      "family_id": "serwis-publikacyjny",
       "parent_id": "zbior-referencyjny",
+      "children_count": 0,
       "name_en": "Reference resource corpus",
       "name_pl": "Korpus zasobów referencyjnych",
       "path_en": [
@@ -2187,9 +2202,12 @@
     },
     {
       "node_id": "katalog-rekordow",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 3,
+      "is_leaf_archetype": true,
+      "family_id": "serwis-publikacyjny",
       "parent_id": "zbior-referencyjny",
+      "children_count": 0,
       "name_en": "Record catalogue",
       "name_pl": "Katalog rekordów",
       "path_en": [
@@ -2212,9 +2230,12 @@
     },
     {
       "node_id": "baza-encji-wielotypowych",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 3,
+      "is_leaf_archetype": true,
+      "family_id": "serwis-publikacyjny",
       "parent_id": "zbior-referencyjny",
+      "children_count": 0,
       "name_en": "Multi-type entity database",
       "name_pl": "Baza encji wielotypowych",
       "path_en": [
@@ -2237,9 +2258,12 @@
     },
     {
       "node_id": "strona-prezentacyjna",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "serwis-publikacyjny",
       "parent_id": "serwis-publikacyjny",
+      "children_count": 0,
       "name_en": "Presentation site",
       "name_pl": "Strona prezentacyjna",
       "path_en": [
@@ -2260,9 +2284,12 @@
     },
     {
       "node_id": "publikacja-jednostkowa",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "serwis-publikacyjny",
       "parent_id": "serwis-publikacyjny",
+      "children_count": 0,
       "name_en": "Single publication",
       "name_pl": "Publikacja jednostkowa",
       "path_en": [
@@ -2283,9 +2310,12 @@
     },
     {
       "node_id": "narzedzie-sesyjne",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "family",
+      "depth": 1,
+      "is_leaf_archetype": false,
+      "family_id": "narzedzie-sesyjne",
       "parent_id": "archetyp-funkcjonalny-projektu-www-w-zakresie-operacyjnym",
+      "children_count": 6,
       "name_en": "Session tool",
       "name_pl": "Narzędzie sesyjne",
       "path_en": [
@@ -2304,9 +2334,12 @@
     },
     {
       "node_id": "sterownik-sesyjny-systemu-zewnetrznego",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "narzedzie-sesyjne",
       "parent_id": "narzedzie-sesyjne",
+      "children_count": 0,
       "name_en": "External-system session controller",
       "name_pl": "Sterownik sesyjny systemu zewnętrznego",
       "path_en": [
@@ -2327,9 +2360,12 @@
     },
     {
       "node_id": "analizator",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "narzedzie-sesyjne",
       "parent_id": "narzedzie-sesyjne",
+      "children_count": 0,
       "name_en": "Analyzer",
       "name_pl": "Analizator",
       "path_en": [
@@ -2350,9 +2386,12 @@
     },
     {
       "node_id": "generator-artefaktu",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "narzedzie-sesyjne",
       "parent_id": "narzedzie-sesyjne",
+      "children_count": 0,
       "name_en": "Artifact generator",
       "name_pl": "Generator artefaktu",
       "path_en": [
@@ -2373,9 +2412,12 @@
     },
     {
       "node_id": "narzedzie-wyszukiwania-i-wyboru",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "narzedzie-sesyjne",
       "parent_id": "narzedzie-sesyjne",
+      "children_count": 0,
       "name_en": "Search and selection tool",
       "name_pl": "Narzędzie wyszukiwania i wyboru",
       "path_en": [
@@ -2396,9 +2438,12 @@
     },
     {
       "node_id": "kanal-kontaktu-w-biezacej-sesji",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "narzedzie-sesyjne",
       "parent_id": "narzedzie-sesyjne",
+      "children_count": 0,
       "name_en": "In-session contact channel",
       "name_pl": "Kanał kontaktu w bieżącej sesji",
       "path_en": [
@@ -2419,9 +2464,12 @@
     },
     {
       "node_id": "doswiadczenie-interaktywne",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "narzedzie-sesyjne",
       "parent_id": "narzedzie-sesyjne",
+      "children_count": 0,
       "name_en": "Interactive experience",
       "name_pl": "Doświadczenie interaktywne",
       "path_en": [
@@ -2442,9 +2490,12 @@
     },
     {
       "node_id": "serwis-operacji-z-operatorem",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "family",
+      "depth": 1,
+      "is_leaf_archetype": false,
+      "family_id": "serwis-operacji-z-operatorem",
       "parent_id": "archetyp-funkcjonalny-projektu-www-w-zakresie-operacyjnym",
+      "children_count": 4,
       "name_en": "Operator-operations service",
       "name_pl": "Serwis operacji z operatorem",
       "path_en": [
@@ -2463,9 +2514,12 @@
     },
     {
       "node_id": "serwis-rezerwacyjny",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "serwis-operacji-z-operatorem",
       "parent_id": "serwis-operacji-z-operatorem",
+      "children_count": 0,
       "name_en": "Booking service",
       "name_pl": "Serwis rezerwacyjny",
       "path_en": [
@@ -2486,9 +2540,12 @@
     },
     {
       "node_id": "serwis-zamowieniowy",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "serwis-operacji-z-operatorem",
       "parent_id": "serwis-operacji-z-operatorem",
+      "children_count": 0,
       "name_en": "Ordering service",
       "name_pl": "Serwis zamówieniowy",
       "path_en": [
@@ -2509,9 +2566,12 @@
     },
     {
       "node_id": "serwis-wplat",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "serwis-operacji-z-operatorem",
       "parent_id": "serwis-operacji-z-operatorem",
+      "children_count": 0,
       "name_en": "Payment service",
       "name_pl": "Serwis wpłat",
       "path_en": [
@@ -2532,9 +2592,12 @@
     },
     {
       "node_id": "serwis-zgloszeniowy",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "serwis-operacji-z-operatorem",
       "parent_id": "serwis-operacji-z-operatorem",
+      "children_count": 0,
       "name_en": "Case-intake service",
       "name_pl": "Serwis zgłoszeniowy",
       "path_en": [
@@ -2555,9 +2618,12 @@
     },
     {
       "node_id": "aplikacja-z-trwala-przestrzenia-robocza",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "family",
+      "depth": 1,
+      "is_leaf_archetype": false,
+      "family_id": "aplikacja-z-trwala-przestrzenia-robocza",
       "parent_id": "archetyp-funkcjonalny-projektu-www-w-zakresie-operacyjnym",
+      "children_count": 5,
       "name_en": "Persistent-workspace app",
       "name_pl": "Aplikacja z trwałą przestrzenią roboczą",
       "path_en": [
@@ -2576,9 +2642,12 @@
     },
     {
       "node_id": "aplikacja-procesowa",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "aplikacja-z-trwala-przestrzenia-robocza",
       "parent_id": "aplikacja-z-trwala-przestrzenia-robocza",
+      "children_count": 0,
       "name_en": "Process app",
       "name_pl": "Aplikacja procesowa",
       "path_en": [
@@ -2599,9 +2668,12 @@
     },
     {
       "node_id": "edytor-projektow",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "aplikacja-z-trwala-przestrzenia-robocza",
       "parent_id": "aplikacja-z-trwala-przestrzenia-robocza",
+      "children_count": 0,
       "name_en": "Project editor",
       "name_pl": "Edytor projektów",
       "path_en": [
@@ -2622,9 +2694,12 @@
     },
     {
       "node_id": "doswiadczenie-z-trwalym-postepem",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "aplikacja-z-trwala-przestrzenia-robocza",
       "parent_id": "aplikacja-z-trwala-przestrzenia-robocza",
+      "children_count": 0,
       "name_en": "Persistent-progress experience",
       "name_pl": "Doświadczenie z trwałym postępem",
       "path_en": [
@@ -2645,9 +2720,12 @@
     },
     {
       "node_id": "trwala-przestrzen-komunikacyjna-uslugi",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "aplikacja-z-trwala-przestrzenia-robocza",
       "parent_id": "aplikacja-z-trwala-przestrzenia-robocza",
+      "children_count": 0,
       "name_en": "Persistent service communication space",
       "name_pl": "Trwała przestrzeń komunikacyjna usługi",
       "path_en": [
@@ -2668,9 +2746,12 @@
     },
     {
       "node_id": "aplikacja-ewidencyjna",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "aplikacja-z-trwala-przestrzenia-robocza",
       "parent_id": "aplikacja-z-trwala-przestrzenia-robocza",
+      "children_count": 0,
       "name_en": "Record-keeping app",
       "name_pl": "Aplikacja ewidencyjna",
       "path_en": [
@@ -2691,9 +2772,12 @@
     },
     {
       "node_id": "platforma-wielostronna",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "family",
+      "depth": 1,
+      "is_leaf_archetype": false,
+      "family_id": "platforma-wielostronna",
       "parent_id": "archetyp-funkcjonalny-projektu-www-w-zakresie-operacyjnym",
+      "children_count": 5,
       "name_en": "Multi-sided platform",
       "name_pl": "Platforma wielostronna",
       "path_en": [
@@ -2712,9 +2796,12 @@
     },
     {
       "node_id": "wielostronna-platforma-transakcyjna",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "platforma-wielostronna",
       "parent_id": "platforma-wielostronna",
+      "children_count": 0,
       "name_en": "Multi-sided transaction platform",
       "name_pl": "Wielostronna platforma transakcyjna",
       "path_en": [
@@ -2735,9 +2822,12 @@
     },
     {
       "node_id": "platforma-wspoldzialania",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "platforma-wielostronna",
       "parent_id": "platforma-wielostronna",
+      "children_count": 0,
       "name_en": "Collaboration platform",
       "name_pl": "Platforma współdziałania",
       "path_en": [
@@ -2758,9 +2848,12 @@
     },
     {
       "node_id": "platforma-kojarzenia",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "platforma-wielostronna",
       "parent_id": "platforma-wielostronna",
+      "children_count": 0,
       "name_en": "Matching platform",
       "name_pl": "Platforma kojarzenia",
       "path_en": [
@@ -2781,9 +2874,12 @@
     },
     {
       "node_id": "platforma-komunikacyjna",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "platforma-wielostronna",
       "parent_id": "platforma-wielostronna",
+      "children_count": 0,
       "name_en": "Communication platform",
       "name_pl": "Platforma komunikacyjna",
       "path_en": [
@@ -2804,9 +2900,12 @@
     },
     {
       "node_id": "platforma-wkladow-uzytkownikow",
-      "code_or_gate": "",
-      "family_id": "",
+      "node_kind": "leaf",
+      "depth": 2,
+      "is_leaf_archetype": true,
+      "family_id": "platforma-wielostronna",
       "parent_id": "platforma-wielostronna",
+      "children_count": 0,
       "name_en": "User-contribution platform",
       "name_pl": "Platforma wkładów użytkowników",
       "path_en": [
