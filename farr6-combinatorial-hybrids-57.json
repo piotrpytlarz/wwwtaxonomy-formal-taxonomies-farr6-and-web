@@ -1,0 +1,1963 @@
+{
+  "dataset_id": "wwwtaxonomy-farr6-combinatorial-death-hybrids-57",
+  "title": "FARR/6 — Combinatorial Atlas of 6 Historical Violent Death Types and All 57 Formal Hybrid Intersections (Orders 2–6)",
+  "version": "1.0.0",
+  "generated_at": "2026-10-19",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "FARR/6 — Atlas sześciu śmierci gwałtownych (https://wwwtaxonomy.com)",
+  "source_urls": {
+    "homepage": "https://wwwtaxonomy.com/"
+  },
+  "farr_base_types": [
+    {
+      "id": "battle",
+      "roman_index": "I",
+      "name_pl": "Bitwa",
+      "short_name_pl": "Bitwa",
+      "historical_farr_label_en": "battle · pro patria mori",
+      "definition_pl": "Śmierć związana z działaniami wojennymi — u Farra wyróżniona przez społeczną ramę konfliktu.",
+      "analytical_correction_pl": "Historycznie Farr zaliczał pojedynek do homicide. Analitycznie pojedynek ma jednak profil wzajemnego przyjęcia śmiertelnego ryzyka i jest bliższy idealnemu typowi walki niż zabójstwu osoby, która na takie starcie się nie zgodziła.",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "id": "homicide",
+      "roman_index": "II",
+      "name_pl": "Morderstwo/zabójstwo",
+      "short_name_pl": "Morderstwo/zabójstwo",
+      "historical_farr_label_en": "homicide · murder, manslaughter",
+      "definition_pl": "Umyślne spowodowanie śmierci innego człowieka. Farr używał szerszego homicide i podawał murder oraz manslaughter jako odmiany jednej grupy.",
+      "analytical_correction_pl": "Polski kodeks posługuje się terminem „zabójstwo”. „Morderstwo” jest jego potocznym, silniej oceniającym synonimem, a nie odrębną klasą zdefiniowaną przez błahy motyw. Zabójstwo na zlecenie jest podtypem zabójstwa — prywatne zlecenie nie legalizuje czynu.",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "id": "execution",
+      "roman_index": "III",
+      "name_pl": "Kara śmierci",
+      "short_name_pl": "Kara śmierci",
+      "historical_farr_label_en": "execution · the scaffold",
+      "definition_pl": "Celowe pozbawienie życia wykonane z upoważnienia instytucji państwa jako kara.",
+      "analytical_correction_pl": "Legalność jest cechą instytucji i jurysdykcji, a nie odrębnym mechanizmem biologicznym śmierci. W Polsce kara śmierci jest zniesiona; atlas ujmuje ją historycznie i porównawczo między systemami prawnymi.",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "id": "suicide",
+      "roman_index": "IV",
+      "name_pl": "Samobójstwo",
+      "short_name_pl": "Samobójstwo",
+      "historical_farr_label_en": "suicide · his own life",
+      "definition_pl": "Śmierć, w której ta sama osoba jest podmiotem i sprawcą finalnego działania, a śmierć jest zamierzona.",
+      "analytical_correction_pl": "Zarodek lub płód nie jest tym samym organizmem co osoba ciężarna. Pokrewieństwo ani częściowo wspólne DNA nie czynią jego śmierci samobójstwem; rozstrzygają tożsamość organizmu, sprawstwo i intencja.",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "id": "surgery",
+      "roman_index": "V",
+      "name_pl": "Operacja medyczna",
+      "short_name_pl": "Operacja medyczna",
+      "historical_farr_label_en": "surgical operation",
+      "definition_pl": "Jako typ idealny: śmierć wskutek ziszczenia się rozpoznanego ryzyka interwencji dobrowolnie podjętej dla leczenia, mimo zachowania wymaganego standardu.",
+      "analytical_correction_pl": "Śmierć nie musi dowodzić błędu ani nawet „nieudanej” procedury. Pacjent nie wybiera śmierci jako celu, lecz po uzyskaniu informacji prawnie skutecznie przyjmuje jej prawdopodobieństwo jako ryzyko zabiegu.",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "id": "accident",
+      "roman_index": "VI",
+      "name_pl": "Wypadek",
+      "short_name_pl": "Wypadek",
+      "historical_farr_label_en": "accident",
+      "definition_pl": "Śmierć niezamierzona, wywołana zdarzeniem zewnętrznym lub niezamierzonym następstwem działania.",
+      "analytical_correction_pl": "Brak zamiaru nie wyklucza zaniedbania ani odpowiedzialności. „Wypadek” opisuje intencję, nie niewinność.",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    }
+  ],
+  "analytical_axes": [
+    {
+      "number": "01",
+      "name": "Jednostka analizy",
+      "question": "Czy klasyfikujemy jedną śmierć, cały epizod, procedurę czy sekwencję zdarzeń?",
+      "values": "osoba · zdarzenie · sekwencja · praktyka"
+    },
+    {
+      "number": "02",
+      "name": "Sprawstwo",
+      "question": "Kto wykonał działanie bezpośrednio prowadzące do śmierci?",
+      "values": "ta sama osoba · inna osoba · instytucja · proces bezosobowy"
+    },
+    {
+      "number": "03",
+      "name": "Intencja skutku",
+      "question": "Czy śmierć była celem, środkiem, zaakceptowanym ryzykiem czy skutkiem niechcianym?",
+      "values": "cel · środek · ryzyko · niezamierzona · nieustalona"
+    },
+    {
+      "number": "04",
+      "name": "Zgoda i przyjęcie ryzyka",
+      "question": "Czy osoba zgodziła się na działanie, na prawdopodobieństwo śmierci, czy na samą śmierć jako cel?",
+      "values": "akt · ryzyko śmierci · śmierć jako cel · odmowa · brak zdolności"
+    },
+    {
+      "number": "05",
+      "name": "Mandat instytucjonalny",
+      "question": "W jakiej ramie działał sprawca i jak prawo kwalifikuje tę ramę?",
+      "values": "prywatna · medyczna · państwowa · wojenna · sporna"
+    },
+    {
+      "number": "06",
+      "name": "Miejsce w łańcuchu",
+      "question": "Co było przyczyną wyjściową, mechanizmem, powikłaniem lub błędem?",
+      "values": "przyczyna · mechanizm · powikłanie · błąd · kontekst"
+    }
+  ],
+  "boundary_scenarios": [
+    {
+      "id": "abortion",
+      "number": "A",
+      "title": "Aborcja",
+      "question": "Czy klasyfikujemy śmierć zarodka lub płodu, zgon osoby ciężarnej, czy samą procedurę?",
+      "verdict": "W przypadku aborcji indukowanej trwającej ciąży z żywym zarodkiem lub płodem jego śmierć jest celowo spowodowaną śmiercią biologicznie odrębnego organizmu ludzkiego. W tym atlasie odpowiada to typowi homicide — „zabójstwu” w sensie opisowym, niezależnie od prawnej dopuszczalności procedury.",
+      "rule": "Zarodek i płód są kolejnymi fazami biologicznego organizmu rozwijającego się z zygoty, a nie tym samym organizmem co osoba ciężarna. Odrębność organizmalna jest kryterium mocniejszym niż samo „inne DNA”; genom zwykle jest odmienny od matczynego, lecz unikatowość genomu nie jest warunkiem odrębności organizmu.",
+      "affinity": [
+        "homicide",
+        "surgery",
+        "accident"
+      ],
+      "axes": [
+        {
+          "label": "Jednostka",
+          "value": "zarodek lub płód / osoba ciężarna / procedura — trzy odrębne jednostki analizy"
+        },
+        {
+          "label": "Sprawstwo",
+          "value": "działanie osoby ciężarnej lub personelu, lek albo procedura jako narzędzie"
+        },
+        {
+          "label": "Intencja",
+          "value": "śmierć jako zamierzony albo koniecznie przewidywany skutek, nie uboczne ryzyko operacji leczniczej"
+        },
+        {
+          "label": "Zgoda",
+          "value": "zgoda osoby ciężarnej nie jest zgodą uśmiercanego organizmu"
+        },
+        {
+          "label": "Mandat",
+          "value": "dopuszczalność prawna zapisywana osobno; nie zmienia biologii ani sprawstwa"
+        },
+        {
+          "label": "Łańcuch",
+          "value": "interwencja → śmierć zarodka lub płodu → zakończenie ciąży; zgon ciężarnej to osobny rekord"
+        }
+      ],
+      "findings": [
+        "Międzynarodowy słownik ICMART, ASRM i ESHRE definiuje zarodek jako biologiczny organizm rozwijający się z zygoty, a płód jako kolejne stadium rozwoju organizmu.",
+        "Embriologia opisuje zapłodnienie jako początek rozwoju nowego diploidalnego organizmu, którego informacja genetyczna pochodzi od obojga rodziców.",
+        "„Homicide” oznacza tu zabójstwo typologiczne: celowe spowodowanie śmierci innego organizmu ludzkiego. Prawo może kwalifikować czyn inaczej, ale nie zmienia biologicznego skutku ani sprawstwa. Usunięcie ciąży już obumarłej jest innym przypadkiem, bo śmierć poprzedza interwencję."
+      ]
+    },
+    {
+      "id": "homicide-suicide",
+      "number": "B",
+      "title": "Samobójstwo rozszerzone",
+      "question": "Jedna śmierć hybrydowa czy dwie śmierci w jednym epizodzie?",
+      "verdict": "To sekwencja zabójstwo–samobójstwo: śmierć ofiary jest zabójstwem, a późniejsza śmierć sprawcy — samobójstwem.",
+      "rule": "Termin „samobójstwo rozszerzone” może zasłaniać brak zgody ofiar. Do rejestru lepiej wpisać dwa sposoby śmierci i powiązać je identyfikatorem zdarzenia.",
+      "affinity": [
+        "homicide",
+        "suicide"
+      ],
+      "axes": [
+        {
+          "label": "Jednostka",
+          "value": "co najmniej dwie osoby, jeden powiązany epizod"
+        },
+        {
+          "label": "Sprawstwo",
+          "value": "sprawca wobec innych, potem wobec siebie"
+        },
+        {
+          "label": "Intencja",
+          "value": "ustalana osobno dla każdej śmierci"
+        },
+        {
+          "label": "Zgoda",
+          "value": "ofiary nie stają się współuczestnikami decyzji sprawcy"
+        },
+        {
+          "label": "Mandat",
+          "value": "prywatny, bez legalnego upoważnienia"
+        },
+        {
+          "label": "Łańcuch",
+          "value": "dwa skutki połączone czasem i sprawcą"
+        }
+      ],
+      "findings": [
+        "Literatura używa nazw homicide–suicide, murder–suicide i extended suicide, ale nie ma jednej granicy czasowej.",
+        "Część badań przyjmuje 24 godziny, inne kilka dni lub tydzień; ważniejszy jest związek epizodów niż jedna arbitralna liczba.",
+        "Model danych powinien rozdzielać rekord osoby od rekordu zdarzenia, aby nie przemianować zabójstwa ofiary na samobójstwo."
+      ]
+    },
+    {
+      "id": "euthanasia",
+      "number": "C",
+      "title": "Eutanazja i pomoc w samobójstwie",
+      "question": "Kto wykonuje finalne działanie powodujące śmierć?",
+      "verdict": "W eutanazji dobrowolnej finalne działanie wykonuje lekarz; w samobójstwie wspomaganym wykonuje je pacjent. Zgoda jest podobna, sprawstwo inne.",
+      "rule": "Odmowa lub wycofanie leczenia to jeszcze inna sygnatura: respektuje decyzję pacjenta, ale nie jest podaniem środka w celu spowodowania śmierci.",
+      "affinity": [
+        "homicide",
+        "suicide",
+        "surgery"
+      ],
+      "axes": [
+        {
+          "label": "Jednostka",
+          "value": "śmierć pacjenta"
+        },
+        {
+          "label": "Sprawstwo",
+          "value": "lekarz w eutanazji / pacjent w pomocy do samobójstwa"
+        },
+        {
+          "label": "Intencja",
+          "value": "śmierć jest zamierzonym skutkiem"
+        },
+        {
+          "label": "Zgoda",
+          "value": "dobrowolna prośba osoby zdolnej do decyzji"
+        },
+        {
+          "label": "Mandat",
+          "value": "medyczny; legalność zależy od jurysdykcji"
+        },
+        {
+          "label": "Łańcuch",
+          "value": "interwencja lub udostępnienie środka"
+        }
+      ],
+      "findings": [
+        "Definicje WMA rozróżniają te praktyki właśnie według wykonawcy finalnego działania.",
+        "„Homicide” może być tu neutralnym opisem sprawstwa, ale „murder” jest kwalifikacją prawną i nie wolno ich automatycznie utożsamiać.",
+        "Zgoda nie zmienia tego, kto spowodował śmierć; zmienia relację etyczną i prawną."
+      ]
+    },
+    {
+      "id": "operation",
+      "number": "D",
+      "title": "Śmierć po operacji",
+      "question": "Czy śmierć była ziszczeniem przyjętego ryzyka — mimo prawidłowego działania?",
+      "verdict": "Tak może być. Rozpoznane powikłanie po zabiegu wykonanym z należytą starannością jest realizacją świadomie przyjętego ryzyka; do zgonu nie jest potrzebny błąd lekarza.",
+      "rule": "Świadoma zgoda prawnie upoważnia do interwencji i obejmuje normalne, ujawnione ryzyko — także prawdopodobieństwo śmierci. Nie czyni śmierci celem i nie obejmuje skutków zawinionego naruszenia standardu.",
+      "affinity": [
+        "surgery",
+        "accident"
+      ],
+      "axes": [
+        {
+          "label": "Jednostka",
+          "value": "konkretna śmierć pacjenta"
+        },
+        {
+          "label": "Sprawstwo",
+          "value": "zespół, urządzenie, reakcja organizmu albo choroba"
+        },
+        {
+          "label": "Intencja",
+          "value": "leczenie; śmierć zwykle niezamierzona"
+        },
+        {
+          "label": "Zgoda",
+          "value": "na zabieg i ujawnione ryzyko śmierci"
+        },
+        {
+          "label": "Mandat",
+          "value": "medyczny i regulowany"
+        },
+        {
+          "label": "Łańcuch",
+          "value": "powikłanie, zdarzenie niepożądane, błąd lub choroba"
+        }
+      ],
+      "findings": [
+        "Już w 1845 r. Farr pisał o śmierci po operacji, której pacjent dobrowolnie poddał się dla ulżenia chorobie — dobrowolność i cel leczniczy są więc wprost obecne w materiale historycznym.",
+        "Sąd Najwyższy rozróżnia realizację ryzyka operacyjnego od błędu: prawidłowo wykonany zabieg może zakończyć się śmiertelnym, niezawinionym powikłaniem.",
+        "„Kontrakt na ryzyko” jest użytecznym skrótem analitycznym. Ściślej prawnie chodzi o świadomą zgodę lub upoważnienie; charakter zgody jako umowy czy jednostronnego oświadczenia jest dyskutowany."
+      ]
+    },
+    {
+      "id": "war",
+      "number": "E",
+      "title": "Pojedynek, bitwa i wojna",
+      "question": "Dlaczego Farr wpisał pojedynek do homicide, choć przypomina on bitwę i operację?",
+      "verdict": "Historycznie: Farr rzeczywiście wpisał pojedynek do Homicide. Analitycznie: masz rację — pojedynek jest bliższy typowi wzajemnie przyjętego ryzyka, wspólnemu walce i operacji, niż zabójstwu bez zgody ofiary.",
+      "rule": "Farr ciął materiał według kontekstu: Battle obejmowało pole bitwy i starcie morskie, a Homicide — pojedynek i każdą walkę poza tym zakresem. To konwencja klasyfikacyjna, nie konieczna konsekwencja pojęć.",
+      "affinity": [
+        "battle",
+        "homicide",
+        "surgery"
+      ],
+      "axes": [
+        {
+          "label": "Jednostka",
+          "value": "śmierć jednego uczestnika pojedynku"
+        },
+        {
+          "label": "Sprawstwo",
+          "value": "drugi uczestnik zadaje śmiertelny uraz"
+        },
+        {
+          "label": "Intencja",
+          "value": "wygrać lub zranić; własna śmierć jest ryzykiem, nie celem"
+        },
+        {
+          "label": "Zgoda",
+          "value": "wzajemna zgoda na starcie i jego śmiertelne prawdopodobieństwo"
+        },
+        {
+          "label": "Mandat",
+          "value": "prywatny pojedynek; osobno instytucjonalna wojna"
+        },
+        {
+          "label": "Łańcuch",
+          "value": "starcie → uraz zadany przez drugą osobę → śmierć"
+        }
+      ],
+      "findings": [
+        "Na s. 91 Farr dopisał do Homicide przypis: obejmuje ono pojedynek i każdy inny sposób walki niewłączony do Battle.",
+        "Podobieństwo do operacji jest realne i dotyczy osi ryzyka: uczestnik nie musi chcieć umrzeć, aby świadomie przyjąć niezerowe prawdopodobieństwo śmierci.",
+        "Różnica pozostaje zasadnicza: pojedynek jest wzajemny i antagonistyczny, operacja — asymetryczna, kooperacyjna i ukierunkowana terapeutycznie. Wojna dodatkowo obejmuje poborowych, cywilów i jeńców bez dobrowolnej zgody."
+      ]
+    },
+    {
+      "id": "capital-punishment",
+      "number": "F",
+      "title": "Kara śmierci",
+      "question": "Czy legalność tworzy osobny sposób śmierci?",
+      "verdict": "Historycznie Farr wydzielił egzekucję. Analitycznie jest to celowe pozbawienie życia przez innych, kwalifikowane państwowym mandatem.",
+      "rule": "„Legalne” nie znaczy „naturalne” ani „przypadkowe”. Opis sprawstwa, ocena legalności i ocena moralna powinny pozostać trzema polami.",
+      "affinity": [
+        "execution",
+        "homicide",
+        "surgery"
+      ],
+      "axes": [
+        {
+          "label": "Jednostka",
+          "value": "śmierć osoby skazanej"
+        },
+        {
+          "label": "Sprawstwo",
+          "value": "funkcjonariusze i instytucja państwa"
+        },
+        {
+          "label": "Intencja",
+          "value": "śmierć jest celem procedury"
+        },
+        {
+          "label": "Zgoda",
+          "value": "nie jest warunkiem wykonania kary"
+        },
+        {
+          "label": "Mandat",
+          "value": "państwowy, zależny od prawa miejsca i czasu"
+        },
+        {
+          "label": "Łańcuch",
+          "value": "wyrok → procedura → mechanizm śmierci"
+        }
+      ],
+      "findings": [
+        "Egzekucja przecina się opisowo z zabójstwem, bo jedna grupa ludzi intencjonalnie powoduje śmierć innej osoby.",
+        "Zastrzyk śmiertelny może przypominać procedurę medyczną, ale ma przeciwny cel: nie leczy, tylko wykonuje wyrok.",
+        "Omyłkowy wyrok i nieprzewidziany przebieg egzekucji to różne problemy; żaden nie zmienia planowanej śmierci w zwykły wypadek."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "William Farr: sześć proponowanych grup",
+      "detail": "CDC/NCHS, cytat z 16. Annual Report, appendix, s. 71–79",
+      "href": "https://www.cdc.gov/nchs/injury/ice/amsterdam1998/amsterdam1998_farr.htm"
+    },
+    {
+      "label": "16. Annual Report (tom za 1853)",
+      "detail": "Skan pierwotny: s. 78 — warunkowa szóstka; s. 83 — formalny wykaz pięciu rzędów; s. 91 — pojedynek pod Homicide",
+      "href": "https://upload.wikimedia.org/wikipedia/commons/9/90/Annual_report_of_the_Registrar-General_of_births%2C_deaths_and_marriages_in_England_%28IA_annualreportofre16grea%29.pdf"
+    },
+    {
+      "label": "Statistical Nosology z 1845 r.",
+      "detail": "S. 69: trzy klasy faktów oraz operacje dobrowolnie podjęte dla ulżenia chorobie",
+      "href": "https://upload.wikimedia.org/wikipedia/commons/2/24/Registration_of_the_causes_of_death._Circulars_to_medical_practioners_and_to_registrars._A_statistical_nosology_..._Circular_to_coroners_and_a_classification_of_the_causes_of_violent_deaths_...._%28IA_b30384199%29.pdf"
+    },
+    {
+      "label": "Współczesne „manner of death”",
+      "detail": "NIST / Academy Standards Board: accident, homicide, natural, suicide, undetermined",
+      "href": "https://www.nist.gov/glossary-term/43646"
+    },
+    {
+      "label": "Oś intencji w ICD",
+      "detail": "WHO-FIC Content Model Reference Guide",
+      "href": "https://icd.who.int/icdapi/docs/ContentModelGuide.pdf"
+    },
+    {
+      "label": "Zarodek i płód jako stadia organizmu",
+      "detail": "International Glossary on Infertility and Fertility Care 2025 (ICMART, ASRM, ESHRE): aktualne definicje konsensualne",
+      "href": "https://www.asrm.org/practice-guidance/practice-committee-documents/the-international-glossary-on-infertility-and-fertility-care-2025/"
+    },
+    {
+      "label": "Zapłodnienie: początek nowego organizmu",
+      "detail": "NCBI Bookshelf, The Cell: rozpoczęcie rozwoju nowego diploidalnego organizmu z materiałem genetycznym obojga rodziców",
+      "href": "https://www.ncbi.nlm.nih.gov/books/NBK9901/"
+    },
+    {
+      "label": "Definicja aborcji indukowanej",
+      "detail": "WHO: celowe przerwanie trwającej ciąży metodą farmakologiczną lub chirurgiczną",
+      "href": "https://www.who.int/news-room/fact-sheets/detail/abortion"
+    },
+    {
+      "label": "Eutanazja a samobójstwo wspomagane",
+      "detail": "World Medical Association: definicje rozróżniające wykonawcę finalnego aktu",
+      "href": "https://www.wma.net/policies-post/declaration-on-euthanasia-and-physician-assisted-suicide/"
+    },
+    {
+      "label": "Homicide–suicide",
+      "detail": "Przegląd systematyczny: terminologia i brak jednolitej granicy czasowej",
+      "href": "https://pubmed.ncbi.nlm.nih.gov/38245874/"
+    },
+    {
+      "label": "Powikłania i zdarzenia podczas opieki",
+      "detail": "WHO ICD-10: misadventures oraz reakcje i późne powikłania",
+      "href": "https://iris.who.int/bitstream/10665/41977/3/924154502X_eng_LR_part2.pdf"
+    },
+    {
+      "label": "Świadoma zgoda i ryzyko operacyjne",
+      "detail": "Sąd Najwyższy, IV CSK 431/12: akceptacja ryzyka i brak odpowiedzialności za niezawinione powikłanie",
+      "href": "https://www.sn.pl/sites/orzecznictwo/orzeczenia2/iv%20csk%20431-12-1.pdf"
+    },
+    {
+      "label": "Skutek prawny świadomej zgody",
+      "detail": "Sąd Najwyższy, II CK 303/04: przyjęcie ryzyka oraz spór o cywilnoprawną naturę zgody",
+      "href": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia2/II%20CK%20303-04-1.pdf"
+    },
+    {
+      "label": "Zabójstwo i przyjęcie zlecenia w Kodeksie karnym",
+      "detail": "Tekst jednolity Kodeksu karnego: art. 148 używa terminu „zabójstwo”, a art. 148a osobno penalizuje przyjęcie zlecenia za korzyść",
+      "href": "https://eli.gov.pl/api/acts/DU/2025/383/text.pdf"
+    },
+    {
+      "label": "„Morderstwo” w polszczyźnie ogólnej",
+      "detail": "Wielki słownik języka polskiego PAN: umyślne pozbawienie życia; „zabójstwo” jako synonim; także morderstwo na zlecenie",
+      "href": "https://wsjp.pl/haslo/podglad/8855/morderstwo"
+    },
+    {
+      "label": "„Zabójstwo” w polszczyźnie ogólnej",
+      "detail": "Wielki słownik języka polskiego PAN: ta sama definicja podstawowa i „morderstwo” jako synonim",
+      "href": "https://wsjp.pl/index.php/haslo/podglad/8866/zabojstwo"
+    },
+    {
+      "label": "Zabójstwo na zlecenie a motywacja",
+      "detail": "Sąd Najwyższy, V KK 462/23: zlecenie za opłatą jako przykład motywacji zasługującej na szczególne potępienie, nie definicja całej kategorii",
+      "href": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/V%20KK%20462-23.pdf"
+    },
+    {
+      "label": "Zniesienie kary śmierci w Polsce",
+      "detail": "Protokół nr 13 do Europejskiej konwencji praw człowieka: zniesienie kary śmierci we wszystkich okolicznościach",
+      "href": "https://eli.gov.pl/eli/DU/2014/1155/ogl"
+    }
+  ],
+  "record_count": 57,
+  "records": [
+    {
+      "hybrid_id": "order2-01-battle-homicide",
+      "combinatorial_order": 2,
+      "component_types": [
+        "battle",
+        "homicide"
+      ],
+      "component_count": 2,
+      "title_pl": "Śmiertelny pojedynek",
+      "aliases": [
+        "pojedynek na śmierć i życie",
+        "śmierć w pojedynku",
+        "duel"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "nakładanie",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Sprawstwo i intencja. Inna osoba wykonuje celowe działanie prowadzące do śmierci, ale robi to w ramach starcia, w którym strony rozpoznają śmiertelne ryzyko.",
+      "exemplar_scenario_pl": "Pojedynek zakończony śmiertelnym ciosem; celowe zabicie aktywnie walczącego przeciwnika podczas bitwy.",
+      "boundary_condition_pl": "Czy zmarły uczestniczył w rzeczywiście wzajemnym starciu, czy był cywilem, jeńcem, osobą ranną, poddającą się albo inaczej wyłączoną z walki?",
+      "classification_rule_pl": "Śmierć aktywnego uczestnika starcia opisuje Bitwa, a zadanie mu śmiertelnego urazu przez drugą osobę — sprawstwo zewnętrzne. Zabicie osoby nieuczestniczącej lub już bezbronnej należy do Morderstwa/zabójstwa, choć nastąpiło podczas wojny. Pojedynek łączy oba profile: przyjęte ryzyko walki i śmiertelny cios innej osoby.",
+      "source_label": "Farr, 16th Annual Report, s. 91",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Annual_report_of_the_Registrar-General_of_births%2C_deaths_and_marriages_in_England_%28IA_annualreportofre16grea%29.pdf#page=283",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-02-battle-execution",
+      "combinatorial_order": 2,
+      "component_types": [
+        "battle",
+        "execution"
+      ],
+      "component_count": 2,
+      "title_pl": "Egzekucja wojskowa",
+      "aliases": [
+        "wykonanie wojskowego wyroku śmierci",
+        "rozstrzelanie po wyroku sądu wojskowego",
+        "military execution"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "spór",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Kontekst i władza. Zorganizowana zbiorowość używa śmiercionośnej przemocy w warunkach konfliktu, lecz wzajemne starcie i wykonanie decyzji instytucji są różnymi sytuacjami.",
+      "exemplar_scenario_pl": "Rozstrzelanie dezertera po wyroku sądu wojskowego; zabicie jeńca przedstawione jako „egzekucja” bez procesu.",
+      "boundary_condition_pl": "Bitwa zakłada trwające starcie. Kara śmierci zakłada osobę obezwładnioną, której śmierć wykonuje wcześniejsze publiczne orzeczenie.",
+      "classification_rule_pl": "Śmierć podczas aktywnej wymiany przemocy opisuje Bitwa. Wykonanie formalnego wyroku w porządku, który dopuszcza karę śmierci, opisuje Kara śmierci. Zabicie jeńca lub cywila bez takiego mandatu jest Morderstwem/zabójstwem; sam wojenny czas i miejsce nie wystarczają.",
+      "source_label": "ICRC: wyrok śmierci na jeńcu wojennym",
+      "source_url": "https://ihl-databases.icrc.org/en/ihl-treaties/gciii-1949/article-101/commentary/2020",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-03-battle-suicide",
+      "combinatorial_order": 2,
+      "component_types": [
+        "battle",
+        "suicide"
+      ],
+      "component_count": 2,
+      "title_pl": "Atak samobójczy",
+      "aliases": [
+        "suicide attack",
+        "zamach samobójczy",
+        "misja samobójcza",
+        "kamikaze — historycznie"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "łańcuch",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Intencja własnej śmierci. Uczestnik walki może uczynić swój zgon elementem planu działania wojennego, ale samo wejście w skrajne ryzyko jeszcze tego nie przesądza.",
+      "exemplar_scenario_pl": "Atak samobójczy na cel wojskowy; żołnierz osłaniający własnym ciałem granat, aby uratować innych.",
+      "boundary_condition_pl": "Czy powodzenie planu wymaga własnej śmierci, czy uczestnik liczy na przeżycie, choć świadomie przyjmuje bardzo wysokie ryzyko?",
+      "classification_rule_pl": "Gdy własna śmierć jest celem albo koniecznym środkiem planu, zgon ma profil Samobójstwa w kontekście Bitwy. Gdy walczący zamierza przeżyć, jest to śmierć w Bitwie, nie Samobójstwo. Śmierci innych osób otrzymują osobne rekordy.",
+      "source_label": "CPOST: suicide attack a suicide mission",
+      "source_url": "https://cpost.uchicago.edu/research/suicide_attacks/important_definitions/",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-04-battle-surgery",
+      "combinatorial_order": 2,
+      "component_types": [
+        "battle",
+        "surgery"
+      ],
+      "component_count": 2,
+      "title_pl": "Zgon po leczeniu rany bojowej",
+      "aliases": [
+        "died of wounds",
+        "DOW",
+        "DWRIA",
+        "zmarły z ran"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "łańcuch",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Zgoda na ryzyko i łańcuch przyczyn. W walce ryzyko jest wzajemne i antagonistyczne; w operacji — asymetryczne, kooperacyjne i podejmowane dla leczenia.",
+      "exemplar_scenario_pl": "Ranny żołnierz umiera wskutek niezawinionego powikłania znieczulenia; uczestnik pojedynku umiera na zator po operacji odniesionej rany.",
+      "boundary_condition_pl": "Trzeba oddzielić uraz wyjściowy od nowego mechanizmu śmierci powstałego podczas leczenia i ustalić, który był przyczyną zgonu.",
+      "classification_rule_pl": "Jeżeli rana z Bitwy okazuje się śmiertelna mimo leczenia, Bitwa pozostaje przyczyną wyjściową. Jeżeli bezpośrednią przyczyną jest powikłanie interwencji, Operacja medyczna jest mechanizmem bezpośrednim, a Bitwa wcześniejszym ogniwem. Śmierć po operacji nie zawsze oznacza śmierć wskutek operacji.",
+      "source_label": "U.S. Army: DOW i DWRIA",
+      "source_url": "https://www.hrc.army.mil/content/Army%20Casualty%20and%20Mortuary%20Affairs%20Frequently%20Asked%20Questions",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-05-battle-accident",
+      "combinatorial_order": 2,
+      "component_types": [
+        "battle",
+        "accident"
+      ],
+      "component_count": 2,
+      "title_pl": "Niezamierzona śmierć w działaniach bojowych",
+      "aliases": [
+        "friendly fire",
+        "fratricide",
+        "blue-on-blue",
+        "strata niebojowa"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "nakładanie",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Kontekst kontra intencja. Zgon następuje w środowisku walki, ale konkretna śmierć nie musi być przez kogokolwiek zamierzona.",
+      "exemplar_scenario_pl": "Ogień bratobójczy po błędnym rozpoznaniu celu; katastrofa transportu wojskowego; przypadkowy wybuch niewybuchu.",
+      "boundary_condition_pl": "Należy odróżnić intencję prowadzenia wojny od intencji spowodowania śmierci tej konkretnej osoby.",
+      "classification_rule_pl": "Celowe zabicie rozpoznanego, aktywnego przeciwnika opisuje Bitwa. Gdy nikt nie zamierzał śmierci danej osoby, podstawowym sposobem jest Wypadek, a Bitwa lub wojna stanowią kontekst. Odpowiedzialność za błąd albo zaniedbanie zapisuje się na osobnej osi.",
+      "source_label": "U.S. Army: fratricide i friendly fire",
+      "source_url": "https://www.moore.army.mil/infantry/doctrinesupplement/atp3-21.8/PDFs/fm3_04x113.pdf",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-06-homicide-execution",
+      "combinatorial_order": 2,
+      "component_types": [
+        "homicide",
+        "execution"
+      ],
+      "component_count": 2,
+      "title_pl": "Zabójstwo z mandatu państwa",
+      "aliases": [
+        "judicial execution",
+        "state-sanctioned killing",
+        "wykonanie kary śmierci"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "nakładanie",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Delegowanie i zamiar. Inna osoba celowo powoduje śmierć, a decydent i bezpośredni wykonawca mogą być dwiema różnymi osobami.",
+      "exemplar_scenario_pl": "Płatny zabójca wykonujący prywatne zlecenie; funkcjonariusz wykonujący państwowy wyrok śmierci.",
+      "boundary_condition_pl": "Rozstrzyga źródło upoważnienia. Prywatne zlecenie organizacyjnie przypomina wykonanie wyroku, ale nie tworzy publicznego mandatu ani legalności.",
+      "classification_rule_pl": "Prywatne zlecenie pozostaje Zabójstwem; polski kodeks osobno penalizuje nawet przyjęcie takiego zlecenia za korzyść. Publiczny wyrok wykonany przez upoważnioną instytucję jest Karą śmierci w systemie, który ją dopuszcza. Na poziomie sprawstwa oba zdarzenia są celowym spowodowaniem śmierci przez innych.",
+      "source_label": "UNODC ICCS: homicide a legal intervention",
+      "source_url": "https://www.unodc.org/documents/data-and-analysis/statistics/crime/ICCS/ICCS_final-2015-March12_FINAL.pdf",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-07-homicide-suicide",
+      "combinatorial_order": 2,
+      "component_types": [
+        "homicide",
+        "suicide"
+      ],
+      "component_count": 2,
+      "title_pl": "Zabójstwo–samobójstwo: dwa zgony, jeden epizod",
+      "aliases": [
+        "homicide–suicide",
+        "murder–suicide",
+        "dyadic death",
+        "samobójstwo poagresyjne"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "łańcuch",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Sprawca i wspólny epizod. Ta sama osoba może skierować śmiercionośne działanie najpierw przeciw innym, a następnie przeciw sobie.",
+      "exemplar_scenario_pl": "Sprawca zabija członków rodziny, a potem siebie; osoba zostaje przemocą zmuszona do samodzielnego przyjęcia trucizny.",
+      "boundary_condition_pl": "„Samobójstwo rozszerzone” zwykle nie jest jednym hybrydowym zgonem, lecz zespołem odrębnych śmierci. Przy przymusie trzeba zbadać rzeczywistą autonomię ofiary.",
+      "classification_rule_pl": "Każdą osobę zapisujemy osobno: śmierć ofiary jako Morderstwo/zabójstwo, własną śmierć sprawcy jako Samobójstwo. Jeżeli inna osoba przejęła skuteczną kontrolę przez przemoc lub nieodparty przymus, samodzielne wykonanie ruchu przez ofiarę nie przesądza o Samobójstwie.",
+      "source_label": "Przegląd systematyczny homicide–suicide",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38245874/",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-08-homicide-surgery",
+      "combinatorial_order": 2,
+      "component_types": [
+        "homicide",
+        "surgery"
+      ],
+      "component_count": 2,
+      "title_pl": "Celowe uśmiercenie metodą medyczną",
+      "aliases": [
+        "eutanazja",
+        "medical homicide",
+        "zakończenie życia na żądanie"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "spór",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Interwencja w ciało i sprawstwo. Środki oraz otoczenie medyczne mogą służyć leczeniu albo zostać użyte do celowego spowodowania śmierci.",
+      "exemplar_scenario_pl": "Dobrowolna eutanazja, w której środek podaje lekarz; aborcja rozpatrywana jako śmierć żywego zarodka lub płodu, odrębnie od możliwego zgonu osoby ciężarnej.",
+      "boundary_condition_pl": "Czy śmierć tego konkretnego organizmu była celem interwencji, czy tylko rozpoznanym ryzykiem leczenia prowadzonego dla jego dobra?",
+      "classification_rule_pl": "Jeżeli śmierć jest zamierzonym skutkiem działania innej osoby, zgon ma profil Morderstwa/zabójstwa, nawet gdy użyto narzędzi medycznych. Jeżeli celem jest leczenie tego samego pacjenta, a śmierć stanowi przyjęte ryzyko, jest to Operacja medyczna. Zgoda zmienia relację etyczną i prawną, ale nie wykonawcę finalnego działania.",
+      "source_label": "Definicje eutanazji i assisted suicide",
+      "source_url": "https://www.government.nl/topics/euthanasia/euthanasia-assisted-suicide-and-non-resuscitation-on-request",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-09-homicide-accident",
+      "combinatorial_order": 2,
+      "component_types": [
+        "homicide",
+        "accident"
+      ],
+      "component_count": 2,
+      "title_pl": "Śmierć z cudzej ręki: zamiar czy wypadek?",
+      "aliases": [
+        "nieumyślne spowodowanie śmierci",
+        "zamiar ewentualny",
+        "involuntary manslaughter",
+        "aberratio ictus"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "spór",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Zewnętrzne sprawstwo. Zachowanie innej osoby jest przyczyną śmierci; rozstrzygająca różnica dotyczy zamiaru skutku.",
+      "exemplar_scenario_pl": "Kierowca zabija pieszego wskutek rażącego naruszenia zasad; sprawca celowo strzela do zajętego pomieszczenia i zabija inną osobę niż przewidywał.",
+      "boundary_condition_pl": "Trzeba odróżnić zamiar śmierci — także świadome godzenie się na taki skutek — od nieumyślnego przewidywania albo błędnej oceny ryzyka.",
+      "classification_rule_pl": "Umyślne spowodowanie śmierci należy do Morderstwa/zabójstwa, nawet gdy sprawca pomylił konkretną ofiarę. Gdy śmierć nie była objęta zamiarem, lecz wynikła z lekkomyślności, błędu lub zaniedbania, ma profil Wypadku; to nie oznacza automatycznie braku winy. Przy braku dowodów wybieramy „intencję nieustaloną”.",
+      "source_label": "Sąd Najwyższy: zamiar a nieumyślność",
+      "source_url": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/ii%20nsnk%205-23-1.pdf",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-10-execution-suicide",
+      "combinatorial_order": 2,
+      "component_types": [
+        "execution",
+        "suicide"
+      ],
+      "component_count": 2,
+      "title_pl": "Samobójstwo przez egzekucję",
+      "aliases": [
+        "suicide by execution",
+        "state-assisted suicide",
+        "execution volunteer",
+        "forced suicide"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "pozorne",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Zamierzona śmierć i formalne samosprawstwo. Skazany może sam przyjąć środek albo zrezygnować z możliwości opóźnienia egzekucji.",
+      "exemplar_scenario_pl": "Skazany zmuszony do wypicia trucizny; więzień oczekujący na egzekucję rezygnuje z apelacji i zostaje nazwany „ochotnikiem”.",
+      "boundary_condition_pl": "Sam fakt wykonania finalnego ruchu nie wystarcza. Trzeba ustalić, czy decyzja o śmierci była autonomiczna, czy została narzucona przez instytucję.",
+      "classification_rule_pl": "Jeżeli państwo ustanawia obowiązek śmierci i kontroluje wykonanie, zdarzenie ma profil Kary śmierci, nawet gdy skazany sam przyjmuje środek. Samobójstwo wymaga autonomicznego zamiaru skierowanego przeciw sobie poza takim przymusem. Rodzaj finalnego działania zapisujemy dodatkowo.",
+      "source_label": "Killing the Willing: execution volunteers",
+      "source_url": "https://scholarship.law.cornell.edu/lsrp_papers/16/",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-11-execution-surgery",
+      "combinatorial_order": 2,
+      "component_types": [
+        "execution",
+        "surgery"
+      ],
+      "component_count": 2,
+      "title_pl": "Zmedykalizowana egzekucja",
+      "aliases": [
+        "medicalized execution",
+        "lethal injection",
+        "physician participation in execution"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "nakładanie",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Procedura i technika. Obie praktyki mogą mieć personel, protokół, aparaturę oraz kontrolowaną interwencję w ciało.",
+      "exemplar_scenario_pl": "Zastrzyk śmiertelny w otoczeniu przypominającym kliniczne; operacja ratująca życie osoby oczekującej na wykonanie wyroku.",
+      "boundary_condition_pl": "O rodzaju zdarzenia decyduje cel procedury, a nie wygląd narzędzi, miejsce ani zawód wykonawcy.",
+      "classification_rule_pl": "Procedura mająca wykonać wyrok przez spowodowanie śmierci jest Karą śmierci, nie Operacją medyczną. Zabieg mający leczyć skazanego, w którym śmierć jest tylko ryzykiem, pozostaje Operacją. Późniejsza egzekucja byłaby drugim, odrębnym zdarzeniem.",
+      "source_label": "AMA: udział lekarza w egzekucji",
+      "source_url": "https://code-medical-ethics.ama-assn.org/sites/default/files/2022-08/9.7.3.pdf",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-12-execution-accident",
+      "combinatorial_order": 2,
+      "component_types": [
+        "execution",
+        "accident"
+      ],
+      "component_count": 2,
+      "title_pl": "Wadliwa egzekucja",
+      "aliases": [
+        "botched execution",
+        "botched lethal injection",
+        "execution protocol failure"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "pozorne",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Cel kontra przebieg. Zaplanowana egzekucja może zawierać awarie, pomyłki oraz niezamierzone następstwa.",
+      "exemplar_scenario_pl": "Zastrzyk śmiertelny powoduje nieprzewidziane, przedłużone cierpienie; przypadkowy wystrzał zabija skazanego podczas transportu przed terminem egzekucji.",
+      "boundary_condition_pl": "Niezamierzony mechanizm, moment albo poziom cierpienia nie oznaczają jeszcze, że sama śmierć była przypadkowa.",
+      "classification_rule_pl": "Jeżeli śmierć jest celem wykonywanej procedury, wadliwy przebieg pozostaje Karą śmierci z nieprzewidzianym następstwem. Jeżeli fatalne zdarzenie nie jest częścią wykonania wyroku i nikt nie zamierza śmierci w tym momencie, jest Wypadkiem. Omyłkowe skazanie prowadzi do zamierzonej egzekucji, nie do Wypadku w sensie intencji.",
+      "source_label": "DPIC: definicja botched execution",
+      "source_url": "https://deathpenaltyinfo.org/executions/botched-executions",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-13-suicide-surgery",
+      "combinatorial_order": 2,
+      "component_types": [
+        "suicide",
+        "surgery"
+      ],
+      "component_count": 2,
+      "title_pl": "Samobójstwo wspomagane medycznie",
+      "aliases": [
+        "physician-assisted suicide",
+        "self-administered MAID",
+        "medical aid in dying",
+        "assisted dying"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "nakładanie",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Zgoda i udział medycyny. Pacjent może zaakceptować ryzyko leczenia albo chcieć śmierci jako skutku — to dwie różne intencje.",
+      "exemplar_scenario_pl": "Samobójstwo wspomagane przez lekarza, w którym pacjent sam przyjmuje środek; śmierć podczas ryzykownej operacji wykonanej za świadomą zgodą.",
+      "boundary_condition_pl": "Zgoda na prawdopodobieństwo śmierci nie jest zamiarem własnej śmierci. Trzeba też ustalić, kto wykonał finalne działanie.",
+      "classification_rule_pl": "Jeżeli pacjent sam wykonuje finalny akt i chce śmierci, jest to Samobójstwo z pomocą medyczną. Jeśli finalny środek podaje lekarz, sprawstwo odpowiada eutanazji, nie Samobójstwu. Zgon po zabiegu, którego celem było leczenie, ma profil Operacji medycznej.",
+      "source_label": "Health Canada: self- i provider-administered MAID",
+      "source_url": "https://www.canada.ca/en/health-canada/services/publications/health-system-services/model-practice-standard-medical-assistance-dying.html",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-14-suicide-accident",
+      "combinatorial_order": 2,
+      "component_types": [
+        "suicide",
+        "accident"
+      ],
+      "component_count": 2,
+      "title_pl": "Śmierć niejednoznaczna",
+      "aliases": [
+        "equivocal death",
+        "undetermined manner of death",
+        "suicide-versus-accident death",
+        "Russian-roulette death"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "spór",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Samosprawstwo i niepewna intencja. Ta sama osoba wykonuje niebezpieczne działanie, lecz jej stosunek do własnej śmierci może pozostać niejasny.",
+      "exemplar_scenario_pl": "Śmiertelne przedawkowanie bez dowodów zamiaru; rosyjska ruletka albo skrajnie ryzykowne wyzwanie internetowe.",
+      "boundary_condition_pl": "Przewidywanie możliwości śmierci i godzenie się na ryzyko nie są automatycznie pragnieniem ani zamiarem śmierci.",
+      "classification_rule_pl": "Gdy śmierć była celem albo koniecznym środkiem działania, zgon jest Samobójstwem. Gdy osoba chciała przeżyć, ale błędnie oceniła ryzyko, jest Wypadkiem. Jeśli materiał nie pozwala ustalić zamiaru, poprawną kategorią jest „intencja nieustalona”, nie arbitralne połączenie obu etykiet.",
+      "source_label": "500 psychological autopsies of equivocal deaths",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/2661720/",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order2-15-surgery-accident",
+      "combinatorial_order": 2,
+      "component_types": [
+        "surgery",
+        "accident"
+      ],
+      "component_count": 2,
+      "title_pl": "Śmiertelne zdarzenie niepożądane",
+      "aliases": [
+        "surgical adverse event",
+        "iatrogenic death",
+        "preventable adverse event",
+        "perioperative death"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "nakładanie",
+      "coherence_level": "pair_intersection",
+      "common_axis_or_composition_pl": "Niezamierzony skutek. Śmierć pojawia się podczas albo po interwencji medycznej, choć nie była jej celem.",
+      "exemplar_scenario_pl": "Śmiertelna reakcja anafilaktyczna mimo prawidłowego przygotowania; podanie niewłaściwej dawki; pomylenie pacjentów; awaria urządzenia.",
+      "boundary_condition_pl": "Trzeba oddzielić realizację rozpoznanego ryzyka od błędu, zaniedbania, awarii oraz dalszego działania choroby podstawowej.",
+      "classification_rule_pl": "Ujawnione powikłanie występujące mimo zachowania standardu należy do ryzyka Operacji medycznej. Niezamierzona, możliwa do uniknięcia pomyłka lub awaria ma profil Wypadku w kontekście medycznym, z osobnym polem odpowiedzialności. Jeśli pacjent umiera z powodu choroby mimo próby ratunku, sama operacja nie staje się przyczyną zgonu.",
+      "source_label": "WHO: patient safety i adverse events",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-01-battle-homicide-execution",
+      "combinatorial_order": 3,
+      "component_types": [
+        "battle",
+        "homicide",
+        "execution"
+      ],
+      "component_count": 3,
+      "title_pl": "Egzekucja doraźna",
+      "aliases": [
+        "summary execution",
+        "drumhead court-martial",
+        "sąd doraźny"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "status-hybrid",
+      "coherence_level": "formal",
+      "common_axis_or_composition_pl": "Bitwa daje kontekst; pluton umyślnie zabija; instytucja przedstawia czyn jako wykonanie wyroku.",
+      "exemplar_scenario_pl": "Schwytany oficer zostaje podczas wojny skazany przez kilkuminutowy sąd polowy i natychmiast rozstrzelany.",
+      "boundary_condition_pl": "Jeniec jest hors de combat, więc nie ginie w bitwie. Bez ważnego mandatu jest to egzekucja pozasądowa, nie kara śmierci w sensie idealnym.",
+      "classification_rule_pl": "",
+      "source_label": "Egzekucja doraźna i osoba hors de combat",
+      "source_url": "https://casebook.icrc.org/a_to_z/glossary/hors-de-combat",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-02-battle-homicide-suicide",
+      "combinatorial_order": 3,
+      "component_types": [
+        "battle",
+        "homicide",
+        "suicide"
+      ],
+      "component_count": 3,
+      "title_pl": "Atak samobójczy",
+      "aliases": [
+        "suicide attack",
+        "zamach samobójczy",
+        "kamikaze — tylko historycznie"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "multi-death-event",
+      "coherence_level": "strong",
+      "common_axis_or_composition_pl": "Walka jest kontekstem, śmierć przeciwników — celem, a śmierć sprawcy — koniecznym elementem planu.",
+      "exemplar_scenario_pl": "Pilot załogowej torpedy detonuje ją przy okręcie wojennym, zabijając siebie i osoby na celu.",
+      "boundary_condition_pl": "To epizod z wieloma rekordami śmierci. Misja o małej szansie przeżycia nie jest jeszcze atakiem samobójczym, jeśli plan nie wymaga śmierci wykonawcy.",
+      "classification_rule_pl": "",
+      "source_label": "Atak samobójczy | Homicide–suicide",
+      "source_url": "https://cpost.uchicago.edu/research/suicide_attacks/important_definitions/ | https://pubmed.ncbi.nlm.nih.gov/38245874/",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-03-battle-homicide-surgery",
+      "combinatorial_order": 3,
+      "component_types": [
+        "battle",
+        "homicide",
+        "surgery"
+      ],
+      "component_count": 3,
+      "title_pl": "Eutanazja pola walki",
+      "aliases": [
+        "battlefield euthanasia",
+        "battlefield mercy killing",
+        "coup de grâce"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "single-death",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Rana pochodzi z bitwy, inna osoba zamierza śmierć, a środek i rola wykonawcy są medyczne.",
+      "exemplar_scenario_pl": "Medyk celowo podaje śmiertelną dawkę ciężko rannemu uczestnikowi walki, którego nie można ewakuować.",
+      "boundary_condition_pl": "To medykalizowane zabójstwo, nie terapeutyczna operacja. Analgezja z przewidywanym, lecz niezamierzonym skróceniem życia ma inny profil.",
+      "classification_rule_pl": "",
+      "source_label": "Battlefield euthanasia | Egzekucja doraźna i osoba hors de combat",
+      "source_url": "https://press.armywarcollege.edu/parameters/vol44/iss4/13/ | https://casebook.icrc.org/a_to_z/glossary/hors-de-combat",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-04-battle-homicide-accident",
+      "combinatorial_order": 3,
+      "component_types": [
+        "battle",
+        "homicide",
+        "accident"
+      ],
+      "component_count": 3,
+      "title_pl": "Ogień bratobójczy",
+      "aliases": [
+        "friendly fire",
+        "fratricide",
+        "blue-on-blue"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "single-death",
+      "coherence_level": "strong",
+      "common_axis_or_composition_pl": "Użycie śmiercionośnej siły jest zamierzone; niezamierzone są tożsamość ofiary i trafienie własnych sił.",
+      "exemplar_scenario_pl": "Pilot świadomie odpala pocisk do ludzi uznanych za przeciwników, lecz wskutek błędnej identyfikacji zabija własny oddział.",
+      "boundary_condition_pl": "Wypadkowy jest wybór celu, nie sam akt strzału. Atlas oddziela zamiar zabicia człowieka od zamiaru zabicia tej konkretnej osoby.",
+      "classification_rule_pl": "",
+      "source_label": "Friendly fire / fratricide",
+      "source_url": "https://safety.army.mil/Portals/0/Documents/MEDIA/MEDIAARCHIVE/MAGAZINES/COUNTERMEASURE/Standard/CM2003.pdf",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-05-battle-execution-suicide",
+      "combinatorial_order": 3,
+      "component_types": [
+        "battle",
+        "execution",
+        "suicide"
+      ],
+      "component_count": 3,
+      "title_pl": "Karna misja samobójcza",
+      "aliases": [
+        "suicide mission",
+        "penal mission",
+        "forced suicide"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Atak należy do walki, instytucja przesądziła śmierć, a skazany sam uruchamia jej mechanizm.",
+      "exemplar_scenario_pl": "Skazaniec wybiera między plutonem egzekucyjnym a pilotowaniem ładunku, którego użycie przeciw okrętowi wymaga jego śmierci.",
+      "boundary_condition_pl": "Przymus podważa autonomiczne samobójstwo. Misja karna z realną możliwością przeżycia nie jest samowykonaniem wyroku.",
+      "classification_rule_pl": "",
+      "source_label": "Atak samobójczy | Execution volunteer",
+      "source_url": "https://cpost.uchicago.edu/research/suicide_attacks/important_definitions/ | https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-06-battle-execution-surgery",
+      "combinatorial_order": 3,
+      "component_types": [
+        "battle",
+        "execution",
+        "surgery"
+      ],
+      "component_count": 3,
+      "title_pl": "Zmedykalizowana egzekucja wojskowa",
+      "aliases": [
+        "military execution",
+        "lethal injection",
+        "medicalized execution"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "single-death",
+      "coherence_level": "formal",
+      "common_axis_or_composition_pl": "Wojna jest kontekstem, wyrok mandatem, a procedura korzysta z farmakologii i klinicznej inscenizacji.",
+      "exemplar_scenario_pl": "Szpieg schwytany podczas wojny zostaje skazany przez sąd wojskowy i stracony lekami podanymi dożylnie.",
+      "boundary_condition_pl": "Wygląd kliniczny nie czyni egzekucji leczeniem. Przy terapeutycznej definicji Operacji jest to przecięcie pozorne.",
+      "classification_rule_pl": "",
+      "source_label": "Zmedykalizowana egzekucja | Zastrzyk śmiertelny",
+      "source_url": "https://code-medical-ethics.ama-assn.org/sites/default/files/2022-08/9.7.3.pdf | https://deathpenaltyinfo.org/executions/methods-of-execution/lethal-injection",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-07-battle-execution-accident",
+      "combinatorial_order": 3,
+      "component_types": [
+        "battle",
+        "execution",
+        "accident"
+      ],
+      "component_count": 3,
+      "title_pl": "Rozstrzelany o świcie wskutek pomyłki",
+      "aliases": [
+        "shot at dawn",
+        "wrongful military execution",
+        "miscarriage of military justice"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "status-hybrid",
+      "coherence_level": "formal",
+      "common_axis_or_composition_pl": "Bitwa tworzy sytuację, wyrok prowadzi do śmierci, a pomyłka dotyczy diagnozy i decyzji instytucji.",
+      "exemplar_scenario_pl": "Żołnierz z traumą bojową zostaje uznany za tchórza, rozstrzelany podczas wojny, a później pośmiertnie ułaskawiony.",
+      "boundary_condition_pl": "Śmierć była zamierzona. Wypadek opisuje błąd poznawczy lub sądowy, a nie mechanizm zgonu.",
+      "classification_rule_pl": "",
+      "source_label": "Niesłuszne skazania na śmierć",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4034186/",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-08-battle-suicide-surgery",
+      "combinatorial_order": 3,
+      "component_types": [
+        "battle",
+        "suicide",
+        "surgery"
+      ],
+      "component_count": 3,
+      "title_pl": "Wspomagane samobójstwo na polu walki",
+      "aliases": [
+        "battlefield assisted suicide",
+        "physician-assisted suicide"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "single-death",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Walka tworzy przymus sytuacyjny, zmarły wykonuje finalny akt, a medyk dostarcza środek i wiedzę.",
+      "exemplar_scenario_pl": "Kompetentny, ciężko ranny żołnierz sam wstrzykuje środek przygotowany przez medyka, chcąc uniknąć tortur.",
+      "boundary_condition_pl": "Gdy finalny środek podaje medyk, profil przesuwa się ku eutanazji i zewnętrznemu sprawstwu. Sama analgezja nie tworzy samobójstwa.",
+      "classification_rule_pl": "",
+      "source_label": "Battlefield euthanasia | MAID, assisted suicide i eutanazja",
+      "source_url": "https://press.armywarcollege.edu/parameters/vol44/iss4/13/ | https://www.canada.ca/en/health-canada/services/publications/health-system-services/model-practice-standard-medical-assistance-dying.html",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-09-battle-suicide-accident",
+      "combinatorial_order": 3,
+      "component_types": [
+        "battle",
+        "suicide",
+        "accident"
+      ],
+      "component_count": 3,
+      "title_pl": "Samopoświęcenie po wypadku z granatem",
+      "aliases": [
+        "heroic altruistic suicide",
+        "altruistic suicide",
+        "grenade smothering"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Wypadek inicjuje łańcuch, a świadomie śmiertelne samopoświęcenie następuje w bitwie.",
+      "exemplar_scenario_pl": "Własny granat przypadkowo wpada do okopu; żołnierz świadomie przykrywa go ciałem, ratując innych.",
+      "boundary_condition_pl": "Celem psychicznym jest ocalenie innych, nie śmierć dla niej samej. Nazwanie czynu samobójstwem pozostaje sporne mimo przyjęcia śmierci jako środka.",
+      "classification_rule_pl": "",
+      "source_label": "Heroic altruistic suicide",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/675772/",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-10-battle-surgery-accident",
+      "combinatorial_order": 3,
+      "component_types": [
+        "battle",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 3,
+      "title_pl": "Powikłanie leczenia rany bojowej",
+      "aliases": [
+        "died of wounds (DOW)",
+        "iatrogenic death",
+        "adverse event"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "strong",
+      "common_axis_or_composition_pl": "Bitwa jest przyczyną wyjściową, zabieg interwencją, a błąd medyczny mechanizmem bezpośrednim.",
+      "exemplar_scenario_pl": "Żołnierz przeżywa wybuch, lecz podczas operacji ratunkowej umiera po przypadkowym przetoczeniu niezgodnej krwi.",
+      "boundary_condition_pl": "Śmierć po operacji może nadal być DOW. Nie każde niezawinione powikłanie jest wypadkiem i nie każde zdarzenie niepożądane dowodzi błędu.",
+      "classification_rule_pl": "",
+      "source_label": "Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-11-homicide-execution-suicide",
+      "combinatorial_order": 3,
+      "component_types": [
+        "homicide",
+        "execution",
+        "suicide"
+      ],
+      "component_count": 3,
+      "title_pl": "Samobójstwo przez karę śmierci",
+      "aliases": [
+        "suicide-murder",
+        "suicide by execution",
+        "state-assisted suicide"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "multi-death-event",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Pierwsza śmierć jest zabójstwem; druga egzekucją; zamiar własnej śmierci spina strategię sprawcy.",
+      "exemplar_scenario_pl": "Osoba zabija obcego po to, aby otrzymać karę śmierci, a następnie zrzeka się apelacji.",
+      "boundary_condition_pl": "To co najmniej dwa rekordy śmierci, nigdy jedna śmierć o trzech sprawstwach. Sama rezygnacja z apelacji nie przesądza samobójczego zamiaru.",
+      "classification_rule_pl": "",
+      "source_label": "Homicide–suicide | Execution volunteer",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38245874/ | https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-12-homicide-execution-surgery",
+      "combinatorial_order": 3,
+      "component_types": [
+        "homicide",
+        "execution",
+        "surgery"
+      ],
+      "component_count": 3,
+      "title_pl": "Zmedykalizowana egzekucja",
+      "aliases": [
+        "medicalized execution",
+        "lethal injection",
+        "physician participation in execution"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "single-death",
+      "coherence_level": "formal",
+      "common_axis_or_composition_pl": "Inna osoba zamierza śmierć, działa z publicznego mandatu i korzysta z narzędzi kojarzonych z medycyną.",
+      "exemplar_scenario_pl": "Personel zakłada wkłucie i podaje śmiertelne leki na podstawie państwowego wyroku.",
+      "boundary_condition_pl": "Medykalizacja nie jest leczeniem ani zgodą na ryzyko. Przy ścisłej definicji Operacji medycznej trzeci profil jest pozorny.",
+      "classification_rule_pl": "",
+      "source_label": "Zmedykalizowana egzekucja | Zastrzyk śmiertelny",
+      "source_url": "https://code-medical-ethics.ama-assn.org/sites/default/files/2022-08/9.7.3.pdf | https://deathpenaltyinfo.org/executions/methods-of-execution/lethal-injection",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-13-homicide-execution-accident",
+      "combinatorial_order": 3,
+      "component_types": [
+        "homicide",
+        "execution",
+        "accident"
+      ],
+      "component_count": 3,
+      "title_pl": "Niesłuszna egzekucja",
+      "aliases": [
+        "wrongful execution",
+        "miscarriage of justice",
+        "execution of the innocent"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "status-hybrid",
+      "coherence_level": "formal",
+      "common_axis_or_composition_pl": "Zewnętrzne sprawstwo i śmierć są zamierzone, lecz wybór ofiary opiera się na błędzie faktycznym lub sądowym.",
+      "exemplar_scenario_pl": "Państwo wykonuje wyrok na osobie skazanej wskutek błędnego rozpoznania; późniejsze badanie ujawnia pomyłkę.",
+      "boundary_condition_pl": "Zgon nie jest wypadkiem na osi intencji. Wypadkowy jest proces identyfikacji, nie wykonanie egzekucji.",
+      "classification_rule_pl": "",
+      "source_label": "Niesłuszne skazania na śmierć",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4034186/",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-14-homicide-suicide-surgery",
+      "combinatorial_order": 3,
+      "component_types": [
+        "homicide",
+        "suicide",
+        "surgery"
+      ],
+      "component_count": 3,
+      "title_pl": "Konwersja samobójstwa wspomaganego w eutanazję",
+      "aliases": [
+        "MAID",
+        "assisted suicide converted to euthanasia",
+        "physician-assisted suicide"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "strong",
+      "common_axis_or_composition_pl": "Pacjent rozpoczyna śmiertelny ciąg, inna osoba wykonuje finalny akt, a oba etapy mają medyczny protokół.",
+      "exemplar_scenario_pl": "Pacjent sam przyjmuje przepisany środek, lecz nie umiera; lekarz podaje następnie lek, który kończy życie.",
+      "boundary_condition_pl": "Kategoria zmienia się w trakcie sekwencji: finalne podanie środka przez lekarza klasyfikuje ostatni etap jako eutanazję.",
+      "classification_rule_pl": "",
+      "source_label": "MAID, assisted suicide i eutanazja",
+      "source_url": "https://www.canada.ca/en/health-canada/services/publications/health-system-services/model-practice-standard-medical-assistance-dying.html",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-15-homicide-suicide-accident",
+      "combinatorial_order": 3,
+      "component_types": [
+        "homicide",
+        "suicide",
+        "accident"
+      ],
+      "component_count": 3,
+      "title_pl": "Śmierć niejednoznaczna",
+      "aliases": [
+        "equivocal death",
+        "undetermined manner of death",
+        "Russian-roulette death"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "status-hybrid",
+      "coherence_level": "formal",
+      "common_axis_or_composition_pl": "Zabójstwo, samobójstwo i wypadek są konkurującymi hipotezami o tym samym zgonie.",
+      "exemplar_scenario_pl": "W rosyjskiej ruletce nie wiadomo, czy druga osoba zmanipulowała losowanie, czy zmarły świadomie wybrał śmierć, czy zadziałał przypadek.",
+      "boundary_condition_pl": "„Niejednoznaczna” nie znaczy jednocześnie potrójna. To formalny zapis niepewności, dopóki dowody nie wybiorą najbardziej wiarygodnego sposobu.",
+      "classification_rule_pl": "",
+      "source_label": "Equivocal death",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/2661720/",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-16-homicide-surgery-accident",
+      "combinatorial_order": 3,
+      "component_types": [
+        "homicide",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 3,
+      "title_pl": "Zabójstwo szpitalne przez pomyłkę celu",
+      "aliases": [
+        "healthcare serial murder",
+        "wrong-patient medication error",
+        "transferred intent"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Preparat powstał z zamiarem zabicia, medyczny system przenosi go do niewłaściwej osoby, a błąd wybiera faktyczną ofiarę.",
+      "exemplar_scenario_pl": "Sprawca przygotowuje śmiertelną infuzję dla pacjenta A, lecz wskutek zamiany etykiet inna osoba podaje ją pacjentowi B.",
+      "boundary_condition_pl": "Zamiar wobec A, sprawstwo podającego i śmierć B wymagają osobnych pól. Medyczne narzędzie nie czyni działania terapią.",
+      "classification_rule_pl": "",
+      "source_label": "Healthcare serial murder | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/18409454/ | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-17-execution-suicide-surgery",
+      "combinatorial_order": 3,
+      "component_types": [
+        "execution",
+        "suicide",
+        "surgery"
+      ],
+      "component_count": 3,
+      "title_pl": "Egzekucja przez pobranie narządów",
+      "aliases": [
+        "execution volunteer",
+        "death-row organ donation",
+        "execution by organ procurement"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Państwo wykonuje karę, skazany przyspiesza jej nadejście, a operacja transplantacyjna staje się mechanizmem śmierci.",
+      "exemplar_scenario_pl": "Skazaniec zrzeka się apelacji i godzi na pobranie żywotnych narządów zespolone z wykonaniem wyroku.",
+      "boundary_condition_pl": "Zgoda w uwięzieniu, dead-donor rule i rola chirurga są sporne. Sam status ochotnika nie dowodzi samobójstwa w ścisłym sensie.",
+      "classification_rule_pl": "",
+      "source_label": "Execution by organ procurement | Execution volunteer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9542006/ | https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-18-execution-suicide-accident",
+      "combinatorial_order": 3,
+      "component_types": [
+        "execution",
+        "suicide",
+        "accident"
+      ],
+      "component_count": 3,
+      "title_pl": "Ochotnik do nieudanej egzekucji",
+      "aliases": [
+        "execution volunteer",
+        "botched execution"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Państwo chce śmierci, skazany chce ją przyspieszyć, a techniczna awaria zmienia jej przebieg.",
+      "exemplar_scenario_pl": "Skazaniec rezygnuje z apelacji, lecz wybrane urządzenie ulega awarii i powoduje śmierć innym mechanizmem niż planowany.",
+      "boundary_condition_pl": "Awaria jest przypadkowa, lecz śmierć nie. Pragnienie egzekucji opisuje motywację, nie samodzielny finalny akt.",
+      "classification_rule_pl": "",
+      "source_label": "Execution volunteer | Botched execution",
+      "source_url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness | https://deathpenaltyinfo.org/executions/botched-executions",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-19-execution-surgery-accident",
+      "combinatorial_order": 3,
+      "component_types": [
+        "execution",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 3,
+      "title_pl": "Nieudany zastrzyk śmiertelny",
+      "aliases": [
+        "botched lethal injection",
+        "botched execution",
+        "medicalized execution"
+      ],
+      "name_attestation_status": "attested",
+      "relation_or_scope": "single-death",
+      "coherence_level": "formal",
+      "common_axis_or_composition_pl": "Wyrok i śmierć są zamierzone, metoda naśladuje procedurę kliniczną, a techniczna pomyłka zmienia mechanizm.",
+      "exemplar_scenario_pl": "Wkłucie trafia poza żyłę, a leki powodują długi i odmienny od protokołu przebieg śmierci.",
+      "boundary_condition_pl": "To nie terapia ani przypadkowy zgon. Wypadek opisuje powikłanie zaplanowanej egzekucji, nie jej wynik.",
+      "classification_rule_pl": "",
+      "source_label": "Botched execution | Zmedykalizowana egzekucja",
+      "source_url": "https://deathpenaltyinfo.org/executions/botched-executions | https://code-medical-ethics.ama-assn.org/sites/default/files/2022-08/9.7.3.pdf",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order3-20-suicide-surgery-accident",
+      "combinatorial_order": 3,
+      "component_types": [
+        "suicide",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 3,
+      "title_pl": "Powikłane samobójstwo wspomagane",
+      "aliases": [
+        "complicated assisted suicide",
+        "clinical complication of MAID"
+      ],
+      "name_attestation_status": "partial",
+      "relation_or_scope": "single-death",
+      "coherence_level": "strong",
+      "common_axis_or_composition_pl": "Śmierć jest samodzielnie zamierzona, protokół pochodzi z medycyny, a bezpośredni mechanizm jest nieplanowany.",
+      "exemplar_scenario_pl": "Pacjent sam przyjmuje środek MAID, wymiotuje i umiera przez aspirację zamiast planowanej sekwencji farmakologicznej.",
+      "boundary_condition_pl": "Nieprzewidziany mechanizm nie zmienia automatycznie samobójstwa w wypadek; wypadkowe jest powikłanie.",
+      "classification_rule_pl": "",
+      "source_label": "MAID, assisted suicide i eutanazja | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://www.canada.ca/en/health-canada/services/publications/health-system-services/model-practice-standard-medical-assistance-dying.html | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-01-battle-homicide-execution-suicide",
+      "combinatorial_order": 4,
+      "component_types": [
+        "battle",
+        "homicide",
+        "execution",
+        "suicide"
+      ],
+      "component_count": 4,
+      "title_pl": "Samowykonany wyrok wojenny",
+      "aliases": [
+        "forced suicide",
+        "wymuszone samobójstwo",
+        "seppuku z kaishakunin — historycznie"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Wojna jest kontekstem, wyrok mandatem, skazany inicjatorem, a inna osoba finalnym sprawcą.",
+      "exemplar_scenario_pl": "Podczas oblężenia sąd wojskowy pozwala skazanemu samemu rozpocząć wykonanie wyroku, a wyznaczony wykonawca kończy działanie.",
+      "boundary_condition_pl": "Przymus osłabia Samobójstwo; bez autonomicznego zamiaru zostają Kara śmierci i zewnętrzne sprawstwo. Sam mundur nie wystarcza do Bitwy.",
+      "classification_rule_pl": "",
+      "source_label": "Egzekucja doraźna i osoba hors de combat | Execution volunteer",
+      "source_url": "https://casebook.icrc.org/a_to_z/glossary/hors-de-combat | https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-02-battle-homicide-execution-surgery",
+      "combinatorial_order": 4,
+      "component_types": [
+        "battle",
+        "homicide",
+        "execution",
+        "surgery"
+      ],
+      "component_count": 4,
+      "title_pl": "Ratunek po nieudanej egzekucji polowej",
+      "aliases": [
+        "botched execution",
+        "damage-control surgery"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Bitwa daje kontekst, pluton zamiar, wyrok mandat, a operacja bezpośredni mechanizm.",
+      "exemplar_scenario_pl": "Formalna egzekucja w strefie walk nie zabija od razu; po jej wstrzymaniu skazany umiera wskutek znanego ryzyka operacji ratunkowej.",
+      "boundary_condition_pl": "Jeżeli śmierć wynika z pierwotnych obrażeń mimo leczenia, Operacja jest tylko etapem ratunku. Bez ważnego mandatu odpada Kara śmierci.",
+      "classification_rule_pl": "",
+      "source_label": "Botched execution | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://deathpenaltyinfo.org/executions/botched-executions | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-03-battle-homicide-execution-accident",
+      "combinatorial_order": 4,
+      "component_types": [
+        "battle",
+        "homicide",
+        "execution",
+        "accident"
+      ],
+      "component_count": 4,
+      "title_pl": "Konkurencyjna śmierć skazańca",
+      "aliases": [
+        "competing causes",
+        "overdetermination",
+        "friendly fire"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Bitwa i wypadkowy ostrzał dostarczają jedną przyczynę, a egzekucja i celowy strzał — drugą.",
+      "exemplar_scenario_pl": "Skazanego jednocześnie trafia zamierzona salwa plutonu i omyłkowo skierowany pocisk własnej artylerii; oba urazy mogły być śmiertelne.",
+      "boundary_condition_pl": "Jeśli salwa egzekucyjna sama wyjaśnia zgon, wypadek jest tylko równoległym zdarzeniem. Błąd celu nie oznacza braku intencji strzału.",
+      "classification_rule_pl": "",
+      "source_label": "Friendly fire / fratricide | Botched execution",
+      "source_url": "https://safety.army.mil/Portals/0/Documents/MEDIA/MEDIAARCHIVE/MAGAZINES/COUNTERMEASURE/Standard/CM2003.pdf | https://deathpenaltyinfo.org/executions/botched-executions",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-04-battle-homicide-suicide-surgery",
+      "combinatorial_order": 4,
+      "component_types": [
+        "battle",
+        "homicide",
+        "suicide",
+        "surgery"
+      ],
+      "component_count": 4,
+      "title_pl": "Samobójstwo przez pojedynek z próbą ratunku",
+      "aliases": [
+        "suicide by proxy",
+        "victim-precipitated homicide",
+        "pojedynek"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Wzajemna walka, cudzy cios, samobójczy projekt i terapeutyczny ratunek tworzą kolejne poziomy jednego łańcucha.",
+      "exemplar_scenario_pl": "Osoba z zamiarem śmierci wywołuje pojedynek, zostaje ciężko zraniona i umiera wskutek znanego ryzyka późniejszej operacji.",
+      "boundary_condition_pl": "Brawura nie dowodzi zamiaru śmierci. Operacja musi być rzeczywistym ogniwem przyczynowym, nie tylko zdarzeniem po ranie.",
+      "classification_rule_pl": "",
+      "source_label": "Suicide by cop | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/9832661/ | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-05-battle-homicide-suicide-accident",
+      "combinatorial_order": 4,
+      "component_types": [
+        "battle",
+        "homicide",
+        "suicide",
+        "accident"
+      ],
+      "component_count": 4,
+      "title_pl": "Samobójstwo przez ogień bratobójczy",
+      "aliases": [
+        "suicide by proxy",
+        "friendly fire"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "single-death",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Zmarły projektuje śmierć, strzelający intencjonalnie używają siły, a pomyłka dotyczy tożsamości celu.",
+      "exemplar_scenario_pl": "Walczący, chcąc umrzeć, wystawia się na ostrzał; własny oddział omyłkowo bierze go za przeciwnika i strzela.",
+      "boundary_condition_pl": "Wysokie ryzyko nie wystarcza do Samobójstwa. Homicide opisuje tu intencjonalne cudze sprawstwo, nie automatycznie przestępstwo.",
+      "classification_rule_pl": "",
+      "source_label": "Suicide by cop | Friendly fire / fratricide",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/9832661/ | https://safety.army.mil/Portals/0/Documents/MEDIA/MEDIAARCHIVE/MAGAZINES/COUNTERMEASURE/Standard/CM2003.pdf",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-06-battle-homicide-surgery-accident",
+      "combinatorial_order": 4,
+      "component_types": [
+        "battle",
+        "homicide",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 4,
+      "title_pl": "Bojowy zgon okołooperacyjny",
+      "aliases": [
+        "perioperative death",
+        "medical-device adverse event"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "strong",
+      "common_axis_or_composition_pl": "Bitwa i cudzy zamiar tworzą uraz wyjściowy, operacja kontekst bezpośredni, a awaria finalny mechanizm.",
+      "exemplar_scenario_pl": "Żołnierz zostaje celowo zraniony przez przeciwnika, a podczas koniecznej operacji niewykrywalna wada urządzenia zatrzymuje wentylację.",
+      "boundary_condition_pl": "Rana musi pozostawać istotnym ogniwem zgonu. Zgon okołooperacyjny jest nazwą czasową, nie dowodem przyczyny.",
+      "classification_rule_pl": "",
+      "source_label": "Zdarzenia niepożądane w leczeniu | Friendly fire / fratricide",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/patient-safety | https://safety.army.mil/Portals/0/Documents/MEDIA/MEDIAARCHIVE/MAGAZINES/COUNTERMEASURE/Standard/CM2003.pdf",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-07-battle-execution-suicide-surgery",
+      "combinatorial_order": 4,
+      "component_types": [
+        "battle",
+        "execution",
+        "suicide",
+        "surgery"
+      ],
+      "component_count": 4,
+      "title_pl": "Wojenny wyrok samowykonany, potem ratowany",
+      "aliases": [
+        "forced suicide",
+        "rescue surgery"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Konflikt, wyrok, własny akt i terapeutyczna próba ratunku następują kolejno.",
+      "exemplar_scenario_pl": "Skazany podczas wojny sam przyjmuje środek wykonujący wyrok; po wstrzymaniu egzekucji operacja nie zapobiega śmierci.",
+      "boundary_condition_pl": "Jeżeli inna osoba dopełnia dawkę, dochodzi zewnętrzne sprawstwo. Wymuszony ruch czyni Samobójstwo spornym.",
+      "classification_rule_pl": "",
+      "source_label": "Execution volunteer | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-08-battle-execution-suicide-accident",
+      "combinatorial_order": 4,
+      "component_types": [
+        "battle",
+        "execution",
+        "suicide",
+        "accident"
+      ],
+      "component_count": 4,
+      "title_pl": "Karna misja samobójcza przerwana wypadkiem",
+      "aliases": [
+        "suicide mission",
+        "penal mission",
+        "kamikaze — tylko historycznie"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Misja łączy Bitwę, wyrok i zamiar własnej śmierci; awaria zastępuje planowany mechanizm.",
+      "exemplar_scenario_pl": "Wyrok zostaje zamieniony na bojową misję wymagającą śmierci wykonawcy, lecz skazany ginie wcześniej wskutek awarii maszyny.",
+      "boundary_condition_pl": "Misja niemal bez szans nie jest samobójcza, jeśli uczestnik chce przeżyć. Oddział karny bez wyroku śmierci nie tworzy Kary śmierci.",
+      "classification_rule_pl": "",
+      "source_label": "Atak samobójczy | Botched execution",
+      "source_url": "https://cpost.uchicago.edu/research/suicide_attacks/important_definitions/ | https://deathpenaltyinfo.org/executions/botched-executions",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-09-battle-execution-surgery-accident",
+      "combinatorial_order": 4,
+      "component_types": [
+        "battle",
+        "execution",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 4,
+      "title_pl": "Skazany zmarły przed egzekucją",
+      "aliases": [
+        "death in custody",
+        "perioperative death"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "status-hybrid",
+      "coherence_level": "formal",
+      "common_axis_or_composition_pl": "Bitwa jest źródłem urazu, Kara śmierci statusem, Operacja interwencją, a Wypadek bezpośrednim mechanizmem.",
+      "exemplar_scenario_pl": "Ranny uczestnik walk zostaje schwytany i skazany, lecz przed egzekucją umiera podczas operacji wskutek awarii urządzenia.",
+      "boundary_condition_pl": "Jeżeli kodujemy wyłącznie przyczyny, trzeba usunąć Karę śmierci: wyrok nie został wykonany.",
+      "classification_rule_pl": "",
+      "source_label": "Zdarzenia niepożądane w leczeniu | Execution volunteer",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/patient-safety | https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-10-battle-suicide-surgery-accident",
+      "combinatorial_order": 4,
+      "component_types": [
+        "battle",
+        "suicide",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 4,
+      "title_pl": "Przerwany ratunek po samopoświęceniu",
+      "aliases": [
+        "self-sacrifice",
+        "perioperative death"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Bitwa stwarza zagrożenie, własny akt ma ocalić innych, a operacja i awaria kończą łańcuch.",
+      "exemplar_scenario_pl": "Walczący osłania innych, zakładając własną śmierć; przeżywa uraz, lecz ginie po awarii sprzętu podczas operacji.",
+      "boundary_condition_pl": "Samopoświęcenie nie zawsze jest samobójstwem: jeśli osoba liczy na przeżycie, odpada profil Samobójstwa.",
+      "classification_rule_pl": "",
+      "source_label": "Heroic altruistic suicide | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/675772/ | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-11-homicide-execution-suicide-surgery",
+      "combinatorial_order": 4,
+      "component_types": [
+        "homicide",
+        "execution",
+        "suicide",
+        "surgery"
+      ],
+      "component_count": 4,
+      "title_pl": "Wymuszone samobójstwo zakończone po próbie ratunku",
+      "aliases": [
+        "forced suicide",
+        "rescue surgery"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Funkcjonariusz współtworzy proces, wyrok nadaje mandat, skazany wykonuje ruch, a medycyna próbuje go odwrócić.",
+      "exemplar_scenario_pl": "Wyrok wymaga samodzielnego przyjęcia trucizny; po jego wstrzymaniu operacja ratunkowa nie odwraca toksyczności.",
+      "boundary_condition_pl": "Przymus podważa Samobójstwo. Samo użycie substancji w egzekucji nie jest Operacją — terapią jest dopiero ratunek.",
+      "classification_rule_pl": "",
+      "source_label": "Execution volunteer | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-12-homicide-execution-suicide-accident",
+      "combinatorial_order": 4,
+      "component_types": [
+        "homicide",
+        "execution",
+        "suicide",
+        "accident"
+      ],
+      "component_count": 4,
+      "title_pl": "Nieudana egzekucja samowykonana",
+      "aliases": [
+        "forced suicide",
+        "botched execution"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "single-death",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Inni prowadzą intencjonalny proces, wyrok go upoważnia, skazany aktywuje, a awaria zmienia przebieg.",
+      "exemplar_scenario_pl": "Skazany uruchamia urządzenie wykonujące wyrok, a ukryta wada powoduje inny, nieprzewidziany mechanizm śmierci.",
+      "boundary_condition_pl": "Wypadek nie znaczy bez winy. Jeśli urządzenie działa zgodnie z planem, odpada; przymus czyni Samobójstwo spornym.",
+      "classification_rule_pl": "",
+      "source_label": "Botched execution | Execution volunteer",
+      "source_url": "https://deathpenaltyinfo.org/executions/botched-executions | https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-13-homicide-execution-surgery-accident",
+      "combinatorial_order": 4,
+      "component_types": [
+        "homicide",
+        "execution",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 4,
+      "title_pl": "Nieudana egzekucja z ratunkiem",
+      "aliases": [
+        "botched execution",
+        "perioperative adverse event"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "strong",
+      "common_axis_or_composition_pl": "Egzekutorzy zamierzają śmierć, wyrok daje mandat, późniejsza operacja leczy, a awaria szkodzi.",
+      "exemplar_scenario_pl": "Po problemie przy egzekucyjnej iniekcji sąd wstrzymuje wyrok; podczas operacji ratunkowej awaria urządzenia przyczynia się do zgonu.",
+      "boundary_condition_pl": "Iniekcja egzekucyjna nie jest Operacją medyczną. Profil Operacji pojawia się dopiero z odrębną interwencją terapeutyczną.",
+      "classification_rule_pl": "",
+      "source_label": "Botched execution | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://deathpenaltyinfo.org/executions/botched-executions | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-14-homicide-suicide-surgery-accident",
+      "combinatorial_order": 4,
+      "component_types": [
+        "homicide",
+        "suicide",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 4,
+      "title_pl": "Suicide by cop po operacji",
+      "aliases": [
+        "suicide by cop",
+        "victim-precipitated homicide",
+        "law-enforcement-forced-assisted suicide"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Zmarły projektuje śmierć, policjant używa siły, medycyna podejmuje ratunek, a awaria kończy sekwencję.",
+      "exemplar_scenario_pl": "Osoba prowokuje policjanta do strzału, przeżywa go, lecz umiera podczas operacji po nieprzewidzianej awarii sprzętu.",
+      "boundary_condition_pl": "Potrzebny jest dowód zamiaru bycia zabitym. Policjant może chcieć zatrzymać zagrożenie, nie śmierci sprawcy.",
+      "classification_rule_pl": "",
+      "source_label": "Suicide by cop | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/9832661/ | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order4-15-execution-suicide-surgery-accident",
+      "combinatorial_order": 4,
+      "component_types": [
+        "execution",
+        "suicide",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 4,
+      "title_pl": "Zgon skazańca po próbie samobójczej",
+      "aliases": [
+        "suicide on death row",
+        "perioperative adverse event"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "status-hybrid",
+      "coherence_level": "formal",
+      "common_axis_or_composition_pl": "Kara śmierci jest statusem, Samobójstwo działaniem wyjściowym, Operacja ratunkiem, a Wypadek mechanizmem.",
+      "exemplar_scenario_pl": "Osoba oczekująca na egzekucję podejmuje próbę samobójczą, a podczas operacji ratunkowej ginie wskutek awarii urządzenia.",
+      "boundary_condition_pl": "Egzekucja nie spowodowała zgonu, skoro nie została rozpoczęta. To hybryda statusu, nie cztery równorzędne sposoby.",
+      "classification_rule_pl": "",
+      "source_label": "Execution volunteer | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order5-01-battle-homicide-execution-suicide-surgery",
+      "combinatorial_order": 5,
+      "component_types": [
+        "battle",
+        "homicide",
+        "execution",
+        "suicide",
+        "surgery"
+      ],
+      "component_count": 5,
+      "title_pl": "Wojenny wyrok samowykonany, zakończony po ratunku",
+      "aliases": [
+        "forced suicide",
+        "botched execution"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Konflikt, cudze sprawstwo, mandat, samosprawstwo i terapia zajmują pięć różnych miejsc sekwencji.",
+      "exemplar_scenario_pl": "Podczas walk skazany rozpoczyna własną śmierć, wykonawca dopełnia działanie, a prawidłowa operacja po wstrzymaniu wyroku nie odwraca toksyczności.",
+      "boundary_condition_pl": "Nie ma Wypadku: leczenie może być bezskuteczne bez awarii. Przymus nadal czyni Samobójstwo spornym.",
+      "classification_rule_pl": "",
+      "source_label": "Botched execution | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://deathpenaltyinfo.org/executions/botched-executions | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order5-02-battle-homicide-execution-suicide-accident",
+      "combinatorial_order": 5,
+      "component_types": [
+        "battle",
+        "homicide",
+        "execution",
+        "suicide",
+        "accident"
+      ],
+      "component_count": 5,
+      "title_pl": "Karna misja samobójcza z przyczyną konkurencyjną",
+      "aliases": [
+        "suicide mission",
+        "penal mission",
+        "competing causes"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Bitwa, cudzy ostrzał, wyrok i zamiar własnej śmierci zbiegają się z niezależną awarią.",
+      "exemplar_scenario_pl": "Skazany pilot wykonuje bojową misję wymagającą śmierci; przeciwnik ostrzeliwuje maszynę, gdy równocześnie pęka ukryty element konstrukcji.",
+      "boundary_condition_pl": "Jeśli pilot chce i może przeżyć, odpada Samobójstwo. Jeśli ostrzał sam wystarcza, awaria może być tylko zdarzeniem równoległym.",
+      "classification_rule_pl": "",
+      "source_label": "Atak samobójczy | Friendly fire / fratricide",
+      "source_url": "https://cpost.uchicago.edu/research/suicide_attacks/important_definitions/ | https://safety.army.mil/Portals/0/Documents/MEDIA/MEDIAARCHIVE/MAGAZINES/COUNTERMEASURE/Standard/CM2003.pdf",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order5-03-battle-homicide-execution-surgery-accident",
+      "combinatorial_order": 5,
+      "component_types": [
+        "battle",
+        "homicide",
+        "execution",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 5,
+      "title_pl": "Wstrzymana egzekucja polowa",
+      "aliases": [
+        "botched execution",
+        "damage-control surgery",
+        "perioperative adverse event"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "strong",
+      "common_axis_or_composition_pl": "Wojna jest kontekstem, pluton sprawcą, wyrok mandatem, operacja ratunkiem, a awaria mechanizmem.",
+      "exemplar_scenario_pl": "Podczas walk egzekucja nie zabija od razu; po wstrzymaniu wyroku operuje się skazanego, a wada sprzętu przyczynia się do zgonu.",
+      "boundary_condition_pl": "Nie ma Samobójstwa, jeśli zmarły nie chciał śmierci ani jej nie uruchomił. „Polowa” nie zastępuje ważnego mandatu.",
+      "classification_rule_pl": "",
+      "source_label": "Botched execution | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://deathpenaltyinfo.org/executions/botched-executions | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order5-04-battle-homicide-suicide-surgery-accident",
+      "combinatorial_order": 5,
+      "component_types": [
+        "battle",
+        "homicide",
+        "suicide",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 5,
+      "title_pl": "Samobójczy pojedynek z powikłaniem ratunku",
+      "aliases": [
+        "suicide by proxy",
+        "victim-precipitated homicide",
+        "perioperative death"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Walka, cudze sprawstwo, własny zamiar, terapia i awaria tworzą kolejne warstwy.",
+      "exemplar_scenario_pl": "Osoba inicjuje pojedynek, chcąc umrzeć; przeciwnik ją rani, a ukryta awaria urządzenia dopełnia łańcucha podczas operacji.",
+      "boundary_condition_pl": "Brak Kary śmierci jest istotny: prywatna umowa ani obyczaj pojedynku nie są publicznym wyrokiem.",
+      "classification_rule_pl": "",
+      "source_label": "Suicide by cop | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/9832661/ | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order5-05-battle-execution-suicide-surgery-accident",
+      "combinatorial_order": 5,
+      "component_types": [
+        "battle",
+        "execution",
+        "suicide",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 5,
+      "title_pl": "Samowykonany wyrok polowy z powikłaniem ratunku",
+      "aliases": [
+        "forced suicide",
+        "perioperative death"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "status-hybrid",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Konflikt, wyrok, własne działanie, terapia i awaria są pięcioma warstwami jednego rekordu.",
+      "exemplar_scenario_pl": "Podczas konfliktu skazany sam przyjmuje środek; po wstrzymaniu wyroku operacja kończy się zgonem wskutek ukrytej wady urządzenia.",
+      "boundary_condition_pl": "Brak zewnętrznego sprawstwa daje się utrzymać tylko przy wąskim kodowaniu bezpośredniego wykonawcy; odpowiedzialność instytucji może domknąć szóstkę.",
+      "classification_rule_pl": "",
+      "source_label": "Execution volunteer | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order5-06-homicide-execution-suicide-surgery-accident",
+      "combinatorial_order": 5,
+      "component_types": [
+        "homicide",
+        "execution",
+        "suicide",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 5,
+      "title_pl": "Wstrzymana egzekucja samowykonana",
+      "aliases": [
+        "forced suicide",
+        "botched execution",
+        "perioperative adverse event"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "strong",
+      "common_axis_or_composition_pl": "Cudze współsprawstwo, wyrok, własna aktywacja, leczenie i awaria zajmują różne miejsca łańcucha.",
+      "exemplar_scenario_pl": "Skazany uruchamia środek przygotowany przez wykonawcę; wada zmienia dawkowanie, a po wstrzymaniu egzekucji operacja nie zapobiega śmierci.",
+      "boundary_condition_pl": "Pełna piątka istnieje tylko w zapisie sekwencji. Przymus osłabia Samobójstwo, a urządzenie egzekucyjne samo nie tworzy Operacji.",
+      "classification_rule_pl": "",
+      "source_label": "Botched execution | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://deathpenaltyinfo.org/executions/botched-executions | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    },
+    {
+      "hybrid_id": "order6-01-battle-homicide-execution-suicide-surgery-accident",
+      "combinatorial_order": 6,
+      "component_types": [
+        "battle",
+        "homicide",
+        "execution",
+        "suicide",
+        "surgery",
+        "accident"
+      ],
+      "component_count": 6,
+      "title_pl": "Palimpsest sześciu przyczyn",
+      "aliases": [
+        "forced suicide",
+        "botched execution",
+        "perioperative death",
+        "adverse event"
+      ],
+      "name_attestation_status": "atlas",
+      "relation_or_scope": "causal-chain",
+      "coherence_level": "conditional",
+      "common_axis_or_composition_pl": "Bitwa jest kontekstem; Zabójstwo sprawstwem; Kara śmierci mandatem; Samobójstwo własnym aktem; Operacja ratunkiem; Wypadek awarią.",
+      "exemplar_scenario_pl": "Podczas oblężenia skazany rozpoczyna egzekucję, funkcjonariusz dopełnia dawkę, a po wstrzymaniu wyroku awaria urządzenia podczas operacji współpowoduje śmierć.",
+      "boundary_condition_pl": "To jeden zgon opisany na sześciu poziomach, nie sześć równorzędnych sposobów. Przy wąskiej autonomii odpada Samobójstwo, bez realnej walki — Bitwa.",
+      "classification_rule_pl": "",
+      "source_label": "Botched execution | Execution volunteer | Zdarzenia niepożądane w leczeniu",
+      "source_url": "https://deathpenaltyinfo.org/executions/botched-executions | https://www.ojp.gov/ncjrs/virtual-library/abstracts/volunteering-execution-competency-voluntariness | https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+      "canonical_url": "https://wwwtaxonomy.com/"
+    }
+  ]
+}
